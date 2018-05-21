@@ -1,0 +1,47 @@
+{
+	"en" : {
+		"menu" : {
+			"about"    : "About",
+			"projects" : "Projects",
+			"studies"  : "Studies",
+			"work"     : "Work"
+		},
+		"sections" : {
+			"about"    : "About me",
+			"projects" : "Projects",
+			"studies"  : "Studies",
+			"work"     : "Work"
+		}
+	},
+
+	"it" : {
+		"menu" : {
+			"about"    : "About",
+			"projects" : "Progetti",
+			"studies"  : "Studi",
+			"work"     : "Lavoro"
+		},
+		"sections" : {
+			"about"    : "Su di me",
+			"projects" : "Progetti",
+			"studies"  : "Studi",
+			"work"     : "Lavoro"
+		}
+	},
+
+	"fr" : {
+		"menu" : {
+			"about"    : "About",
+			"projects" : "Projets",
+			"studies"  : "&Eacute;tudes",
+			"work"     : "Travail"
+		},
+		"sections" : {
+			"about"    : "&Agrave; propos de moi",
+			"projects" : "Projets",
+			"studies"  : "&Eacute;tudes",
+			"work"     : "Travail"
+		}
+	}
+	
+}

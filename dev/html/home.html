@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Arimo|Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/fonts.css">
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script src="js/gallery.js"></script>
+		<script src="js/home.js"></script>
+		<base href="./" target="_blank">
+		<title>Amedeo Zucchetti</title>
+	</head>
+	<body>
+		<div id="az-main" class="az-hidden">
+			<!-- HEADER -->
+			<div id="az-header">
+				<h1 id="az-home-title">Amedeo Zucchetti</h1>
+				<div id="az-languages">
+					<a class="az-language az-btn {{#if en}}az-selected{{/if}}"
+					   href="{{#unless en}}./en.html{{/unless}}"
+					   target="_self"><h4>en</h4></a>
+					<a class="az-language az-btn {{#if it}}az-selected{{/if}}"
+					   href="{{#unless it}}./it.html{{/unless}}"
+					   target="_self"><h4>it</h4></a>
+					<a class="az-language az-btn {{#if fr}}az-selected{{/if}}"
+					   href="{{#unless fr}}./fr.html{{/unless}}"
+					   target="_self"><h4>fr</h4></a>
+				</div>
+			</div>
+			
+			<!-- BODY -->
+			<div id="az-body">
+				<div id="az-content">
+					<div id="az-menus">
+						<div id="az-menu-about" class="az-menu az-btn az-selected">
+							<h4 class="az-menu-title">{{menu.about}}</h4>
+							<i class="az-menu-icon fa fa-user az-hidden"></i> 
+						</div>
+						<div id="az-menu-projects" class="az-menu az-btn">
+							<h4 class="az-menu-title">{{menu.projects}}</h4>
+							<i class="az-menu-icon fa fa-laptop az-hidden"></i> 
+						</div>
+						<div id="az-menu-studies" class="az-menu az-btn">
+							<h4 class="az-menu-title">{{menu.studies}}</h4>
+							<i class="az-menu-icon fa fa-graduation-cap az-hidden"></i> 
+						</div>
+						<div id="az-menu-work" class="az-menu az-btn">
+							<h4 class="az-menu-title">{{menu.work}}</h4>
+							<i class="az-menu-icon fa fa-briefcase  az-hidden"></i> 
+						</div>
+					</div>
+					
+				<!-- Content -->
+					<div id="az-pages">
+						<!-- About -->
+						<div id="az-page-about" class="az-page az-selected">
+							<h1 class="az-page-title">{{about.intro.title}}</h1>
+							<div id="az-photo"><img src="imgs/profile.jpg" width="100%"></div>
+							<div class="az-page-preface">{{about.intro.body}}</div>
+							<!-- Info -->
+							<div id="az-info">
+								<div id="az-contacts">
+									<div class="az-contact">
+										<i class="fa fa-envelope-o"></i>
+										<a href="mailto:amedeo.zucchetti@usi.ch">amedeo.zucchetti@gmail.com</a>
+									</div>
+									<div class="az-contact">
+										<i class="fa fa-github"></i>
+										<a href="https://github.com/zuccha">GitHub</a>
+									</div>
+									<div class="az-contact">
+										<i class="fa fa-linkedin"></i>
+										<a href="https://www.linkedin.com/in/amedeo-zucchetti">LinkedIn</a>
+									</div>
+									<div class="az-contact">
+										<i class="fa fa-file-text-o"></i>
+										<a href="docs/about/cv/zucchetti_cv_{{lang}}.pdf"><i>Curriculum vitae</i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Projects -->
+						<div id="az-page-projects" class="az-page">
+							<h1 class="az-page-title">{{projects.intro.title}}</h1>
+							<div class="az-page-preface">{{projects.intro.body}}</div>
+							{{#each projects.articles}}
+							<div class="az-article">
+								<h2 class="az-article-title">{{title}}</h2>
+								<div class="az-article-short">{{short}}</div>
+								<div class="az-article-body">
+									{{#if images}}
+									<div class="az-gallery-container">
+										<div class="az-gallery">
+											{{#each images}}
+											<div class="az-gallery-item {{#if @first}}selected{{/if}}">
+												<img class="az-gallery-image" src="imgs/{{name}}">
+												<div class="az-gallery-label"><span>{{label}}</span></div>
+											</div>
+											{{/each}}
+											{{#if (lt 1 images.length)}}
+											<div class="az-gallery-btn-left"><span>&#10094;</span></div>
+											<div class="az-gallery-btn-right"><span>&#10095;</span></div>
+											{{/if}}
+										</div>
+									</div>
+									{{/if}}
+									{{body}}
+								</div>
+								<i class="az-btn az-article-btn fa fa-2x fa-plus-circle"></i>
+							</div>
+							{{/each}}
+						</div>
+						<!-- Studies -->
+						<div id="az-page-studies" class="az-page">
+							<h1 class="az-page-title">{{studies.intro.title}}</h1>
+							<div class="az-page-preface">{{studies.intro.body}}</div>
+							{{#each studies.articles}}
+							<div class="az-cv-card">
+								<div class="az-cv-card-period">{{period}}</div>
+								<div class="az-cv-card-title"><a href="{{website.link}}">{{title}}</a></div>
+								<div class="az-cv-card-place">{{place}}</div>
+							</div>
+							{{/each}}
+						</div>
+						<!-- Work -->
+						<div id="az-page-work" class="az-page">
+							<h1 class="az-page-title">{{work.intro.title}}</h1>
+							<div class="az-page-preface">{{work.intro.body}}</div>
+							{{#each work.articles}}
+							<div class="az-cv-card">
+								<div class="az-cv-card-period">{{period}}</div>
+								<div class="az-cv-card-title"><a href="{{website.link}}">{{title}}</a></div>
+								<div class="az-cv-card-place">{{place}}</div>
+							</div>
+							{{/each}}
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- FOOTER -->
+			<div id="az-footer">
+				<div id="az-credits">&#169; 2016-2018 Amedeo Zucchetti</div>
+			</div>
+		</div>
+	</body>
+</html>

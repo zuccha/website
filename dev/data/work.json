@@ -1,0 +1,271 @@
+{
+	"en" : {
+		
+		"intro" : {
+			"title" : "Work Experience",
+			"body" : "<p>During past years, I worked for <a href=\"https://www.banana.ch/en\">Banana.ch SA</a>, <a href=\"https://www.hugoboss.com\">Hugo Boss<a>, <a href=\"http://www.bundesmuseen.ch/museo_vela/index.html?lang=en\">Museo Vincenzo Vela</a> and other institutions. In 2016 I joined Banana.ch's board of directors to help where I can and to learn how to manage a business. I'm currently working as intern software developer at <a href=\"https://www.welld.ch/en/index.html\">WellD</a>.</p>"
+		},
+		
+		"articles" : [
+			
+			{
+				"title"       : "Intern Software Developer",
+				"period"      : "2017.12-present",
+				"place"       : "WellD, Lugano, CH",
+				"description" : "Software development and analysis.",
+				"website"     : {
+					"link" : "https://www.welld.ch/en/index.html",
+					"name" : "WellD"
+				}
+			},
+			
+			{
+				"title"       : "USI Academic Senate Member",
+				"period"      : "2017.03-present",
+				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
+				"description" : "Student representative for the faculty of Informatics in the USI Academic Senate.",
+				"website"     : {
+					"link" : "https://www.usi.ch/en/academic-senate",
+					"name" : "USI"
+				}
+			},
+			
+			{
+				"title"       : "Board Member of Banana.ch SA",
+				"period"      : "2016.01-present",
+				"place"       : "Banana.ch SA, Lugano, CH",
+				"description" : "Consultive role in company management.",
+				"website"     : {
+					"link" : "https://www.banana.ch/en",
+					"name" : "Banana.ch"
+				}
+			},
+			
+			{
+				"title"       : "Intern Software Developer",
+				"period"      : "2017.09-2017.12",
+				"place"       : "Hugo Boss, Coldrerio, CH",
+				"description" : "Software development for internal use applications.",
+				"website"     : {
+					"link" : "https://www.hugoboss.com/",
+					"name" : "Hugo Boss"
+				}
+			},
+
+			{
+				"title"       : "Research Assistant",
+				"period"      : "2017.07-2017.09",
+				"place"       : "Universit&agrave; della Svizzera italiana, Lugano, CH",
+				"description" : "Data visualization for OpenSMT, an open-source SMT-solver written in C++.",
+				"website"     : {
+					"link" : "http://verify.inf.usi.ch/FVBTR",
+					"name" : "OpenSMT"
+				}
+			},
+			
+			{
+				"title"       : "Museum Collaborator",
+				"period"      : "2015.06-2015.09",
+				"place"       : "Museo Vincenzo Vela, Ligornetto, CH",
+				"description" : "Archive work, help during exhibitions preparations and IT support to employees.",
+				"website"     : {
+					"link" : "http://www.bundesmuseen.ch/museo_vela/index.html?lang=en",
+					"name" : "Museo Vela"
+				}
+			},
+			
+			{
+				"title"       : "Kitchen and Janitor Assistant",
+				"period"      : "2011.09-2012.03",
+				"place"       : "Home Linde, Tentlingen, CH",
+				"description" : "Kitchen assistance and residence maintenance.",
+				"website"     : {
+					"link" : "http://fah-seb.ch/linde/",
+					"name" : "Home Linde"
+				}
+			}
+			
+		]
+		
+	},
+	
+	"it" : {
+		
+		"intro" : {
+			"title" : "Esperienza Professionale",
+			"body"  : "<p>In passato ho lavorato per <a href=\"https://www.banana.ch/\">Banana.ch SA</a>, <a href=\"https://www.hugoboss.com\">Hugo Boss<a>, <a href=\"http://www.bundesmuseen.ch/museo_vela/index.html?lang=it\">Museo Vincenzo Vela</a> e altre istituzioni. Nel 2016 sono diventato membro del consiglio di amministrazione di Banana.ch al fine di aiutare e imparare a gestire un'azienda. Attualmente lavoro come stagista ingeniere informatico presso <a href=\"https://www.welld.ch/it/index.html\">WellD</a>.</p>"
+		},
+		
+		"articles" : [
+
+			{
+				"title"       : "Stagista Sviluppatore Software",
+				"period"      : "2017.12-presente",
+				"place"       : "WellD, Lugano, CH",
+				"description" : "Sviluppo di applicazioni e analisi software.",
+				"website"     : {
+					"link" : "https://www.welld.ch/it/index.html",
+					"name" : "WellD"
+				}
+			},
+			
+			{
+				"title"       : "Membro del Senato Accademico dell'USI",
+				"period"      : "2017.03-presente",
+				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
+				"description" : "Rappresentante della facolt&agrave; di informatica per il Senato Accademico dell'USI.",
+				"website"     : {
+					"link" : "https://www.usi.ch/it/senato-accademico",
+					"name" : "USI"
+				}
+			},
+			
+			{
+				"title"       : "Membro del Consiglio di Amministrazione di Banana.ch SA",
+				"period"      : "2016.01-presente",
+				"place"       : "Banana.ch SA, Lugano, CH",
+				"description" : "Consulenza e gestione dell'impresa.",
+				"website"     : {
+					"link" : "https://www.banana.ch/",
+					"name" : "Banana.ch"
+				}
+			},
+			
+			{
+				"title"       : "Stagista Sviluppatore Software",
+				"period"      : "2017.09-2017.12",
+				"place"       : "Hugo Boss, Coldrerio, CH",
+				"description" : "Sviluppo di applicazioni per uso interno.",
+				"website"     : {
+					"link" : "https://www.hugoboss.com/",
+					"name" : "Hugo Boss"
+				}
+			},
+
+			{
+				"title"       : "Assistente di Ricerca",
+				"period"      : "2017.07-2017.09",
+				"place"       : "Universit&agrave; della Svizzera italiana, Lugano, CH",
+				"description" : "Visualizzazione di dati per OpenSMT, un risolutore SMT open-sourcescritto in C++.",
+				"website"     : {
+					"link" : "http://verify.inf.usi.ch/FVBTR",
+					"name" : "OpenSMT"
+				}
+			},
+			
+			{
+				"title"       : "Collaboratore Museale",
+				"period"      : "2015.06-2015.09",
+				"place"       : "Museo Vincenzo Vela, Ligornetto, CH",
+				"description" : "Lavoro d'archivio, aiuto durante la preparazione delle esposizioni, assistenza ai visitatori e supporto informatico agli impiegati.",
+				"website"     : {
+					"link" : "http://www.bundesmuseen.ch/museo_vela/index.html?lang=it",
+					"name" : "Museo Vela"
+				}
+			},
+			
+			{
+				"title"       : "Aiuto cucina e manutenzione",
+				"period"      : "2011.09-2012.03",
+				"place"       : "Home Linde, Tentlingen, CH",
+				"description" : "Preparazione dei pasti e manutenzione dello stabile.",
+				"website"     : {
+					"link" : "http://fah-seb.ch/linde/",
+					"name" : "Home Linde"
+				}
+			}
+			
+		]
+
+	},
+	
+	"fr" : {
+		
+		"intro" : {
+			"title" : "Exp&eacute;rience Professionnelle",
+			"body"  : "<p>Dans le pass&eacute; j'ai travaill&eacute; pour <a href=\"https://www.banana.ch/fr\">Banana.ch SA</a>, <a href=\"https://www.hugoboss.com\">Hugo Boss<a>, <a href=\"http://www.bundesmuseen.ch/museo_vela/index.html?lang=fr\">Museo Vincenzo Vela</a> et autres institutions. En 2016 je suis devenu membre du conseil d'administration de Banana.ch afin d'aider et apprendre comment diriger une entreprise. Actuellement je travail chez <a href=\"https://www.welld.ch/en/index.html\">WellD</a> comme stagiaire ing&eacute;nieur informaticien.</p>"
+		},
+		
+		"articles" : [
+
+						{
+				"title"       : "Stagiaire D&eacute;veloppeur Logiciel",
+				"period"      : "2017.12-pr&eacute;sent",
+				"place"       : "WellD, Lugano, CH",
+				"description" : "D&eacute;veloppement et analyse de logiciels.",
+				"website"     : {
+					"link" : "https://www.welld.ch/en/index.html",
+					"name" : "WellD"
+				}
+			},
+			
+			{
+				"title"       : "Membre du S&eacute;nat Universitaire de l'USI",
+				"period"      : "2017.03-pr&eacute;sent",
+				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
+				"description" : "&Eacute;tudiant repr&eacute;sentant de la facult&eacute; d'Informatique du s&eacute;nat universitaire de l'USI.",
+				"website"     : {
+					"link" : "https://www.usi.ch/en/academic-senate",
+					"name" : "USI"
+				}
+			},
+			
+			{
+				"title"       : "Membre du Conseil d'Administration de Banana.ch SA",
+				"period"      : "2016.01-pr&eacute;sent",
+				"place"       : "Banana.ch SA, Lugano, CH",
+				"description" : "R&ocirc;le consultatif pour la gestion de l'entreprise.",
+				"website"     : {
+					"link" : "https://www.banana.ch/fr",
+					"name" : "Banana.ch"
+				}
+			},
+			
+			{
+				"title"       : "Stagiaire D&eacute;veloppeur Logiciel",
+				"period"      : "2017.09-2017.12",
+				"place"       : "Hugo Boss, Coldrerio, CH",
+				"description" : "D&eacute;veloppement de logiciels pour utilisasion interne.",
+				"website"     : {
+					"link" : "https://www.hugoboss.com/",
+					"name" : "Hugo Boss"
+				}
+			},
+
+			{
+				"title"       : "Collaborateur de Recherche",
+				"period"      : "2017.07-2017.09",
+				"place"       : "Universit&agrave; della Svizzera italiana, Lugano, CH",
+				"description" : "Repr&eacute;sentation de donn &eacute;es pour OpenSMT, un solveur SMT open-source  &eacute;crit en C++.",
+				"website"     : {
+					"link" : "http://verify.inf.usi.ch/FVBTR",
+					"name" : "OpenSMT"
+				}
+			},
+			
+			{
+				"title"       : "Collaborateur Mus&eacute;al",
+				"period"      : "2015.06-2015.09",
+				"place"       : "Museo Vincenzo Vela, Ligornetto, CH",
+				"description" : "Travail d'archives, aide pendant la pr&eacute;paration des expositions, assistance aux visiteurs et support informatique aux employ&eacute;s.",
+				"website"     : {
+					"link" : "http://www.bundesmuseen.ch/museo_vela/index.html?lang=fr",
+					"name" : "Museo Vela"
+				}
+			},
+			
+			{
+				"title"       : "Aide cuisine et concierge",
+				"period"      : "2011.09-2012.03",
+				"place"       : "Home Linde, Tentlingen, CH",
+				"description" : "Pr&eacute;paration des repas et manutention de l'&eacute;tablissement.",
+				"website"     : {
+					"link" : "http://fah-seb.ch/linde/",
+					"name" : "Home Linde"
+				}
+			}
+			
+		]
+		
+	}
+}

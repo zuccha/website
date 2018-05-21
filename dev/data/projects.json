@@ -1,0 +1,166 @@
+{
+	"en" : {
+		
+		"intro" : {
+			"title" : "Projects",
+			"body" : "A list of projects I worked on. It might include every kind of work: from computer programs, to lecture notes, to research papers."
+		},
+
+		"articles" : [
+
+			{
+				"title"  : "Discard Humanity",
+				"date"   : "2017.02.01",
+				"edit"   : "2017.12.25",
+				"short"  : "A platform for playing <a href=\"https://www.cardsagainsthumanity.com/\">Cards Against Humanity</a> online with friends or strangers. <b><strike>Play here</strike></b> (currently not available).",
+				"path"   : "discard-humanity.html",
+				"images" : [
+					{ "name": "discard-humanity_01.jpg", "label": "<i>Discard Humanity</i>'s game interface" },
+					{ "name": "discard-humanity_02.png", "label": "<i>Cards Against Humanity</i>'s logo" }
+				]
+			},
+			
+			{
+				"title" : "USI Calculus",
+				"date"  : "2016.05.23",
+				"edit"  : "2017.02.27",
+				"short" : "Material from the calculus course given by Prof. Michael Bronstein at <a href=\"http://www.inf.usi.ch/\">USI</a>.",
+				"path"  : "usi-calculus.html"
+			},
+			
+			{
+				"title" : "SingaSonga",
+				"date"  : "2017.02.01",
+				"edit"  : "2017.02.01",
+				"short" : "SingaSonga is a game developed during the 2017 <a href=\"http://globalgamejam.org/\">Global Game Jam</a>.",
+				"path"  : "singasonga.html",
+				"images" : [
+					{ "name": "singasonga_01.png", "label": "<i>SingaSonga</i>'s logo" },
+					{ "name": "singasonga_02.png", "label": "<i>SingaSonga</i>'s game interface" }
+				]
+			},
+
+			{
+				"title" : "The Forgotten Land",
+				"date"  : "2018.01.24",
+				"edit"  : "2018.01.24",
+				"short" : "The Forgotten Land is an isometric strategy game.",
+				"path"  : "forgotten-land.html",
+				"images" : [
+					{ "name": "the-forgotten-land_01.png", "label": "<i>The Forgotten Land</i>'s logo" }
+				]
+			}
+			
+		]
+	},
+	
+	"it" : {
+		
+		"intro" : {
+			"title" : "Progetti",
+			"body" : "Una lista di progetti sui quali ho lavorato. Pu&ograve; includere ogni tipo di lavoro: applicazioni, appunti di corsi universitari, saggi di ricerca."
+		},
+
+		"articles" : [
+
+			{
+				"title"  : "Discard Humanity",
+				"date"   : "2017.02.01",
+				"edit"   : "2017.12.25",
+				"short"  : "Una piattaforma per giocare a <a href=\"https://www.cardsagainsthumanity.com/\">Cards Against Humanity</a> online con amici o estranei. <b><strike>Gioca qui</strike></b> (attualmente non disponibile).",
+				"path"   : "discard-humanity.html",
+				"images" : [
+					{ "name": "discard-humanity_01.jpg", "label": "Interfaccia di gioco di <i>Discard Humanity</i>" },
+					{ "name": "discard-humanity_02.png", "label": "Logo di <i>Cards Against Humanity</i>" }
+				]
+			},
+			
+			{
+				"title" : "USI Calculus",
+				"date"  : "2016.05.23",
+				"edit"  : "2017.02.27",
+				"short" : "Materiale del corso di analisi dato da Prof. Michael Bronstein all'<a href=\"http://www.inf.usi.ch/\">USI.",
+				"path"  : "usi-calculus.html"
+			},
+			
+			{
+				"title" : "SingaSonga",
+				"date"  : "2017.02.01",
+				"edit"  : "2017.02.01",
+				"short" : "SingaSonga &egrave; un gioco sviluppato in occasione della <a href=\"http://globalgamejam.org/\">Global Game Jam</a> 2017.",
+				"path"  : "singasonga.html",
+				"images" : [
+					{ "name": "singasonga_01.png", "label": "Logo di SingaSonga" },
+					{ "name": "singasonga_02.png", "label": "Interfaccia di gioco di SingaSonga" }
+				]
+			},
+
+			{
+				"title" : "The Forgotten Land",
+				"date"  : "2018.01.24",
+				"edit"  : "2018.01.24",
+				"short" : "The Forgotten Land &egrave; un videogioco di strategia isometrico.",
+				"path"  : "forgotten-land.html",
+				"images" : [
+					{ "name": "the-forgotten-land_01.png", "label": "Logo di <i>The Forgotten Land</i>" }
+				]
+			}
+
+		]
+	},
+
+	"fr" : {
+		
+		"intro" : {
+			"title" : "Projets",
+			"body" : "Une liste de projets sur lesquels j'ai travaill&eacute;. Cela peuvent &ecirc;tre des logiciels, des notes de cours universitaires, des comptes-rendus."
+		},
+
+		"articles" : [
+
+			{
+				"title"  : "Discard Humanity",
+				"date"   : "2017.02.01",
+				"edit"   : "2017.12.25",
+				"short"  : "Une plate-forme pour jouer &agrave; <a href=\"https://www.cardsagainsthumanity.com/\">Cards Against Humanity</a> en ligne avec amis ou &eacute;trangers. <b><strike>Joue ici</strike></b> (pas disponible au moment).",
+				"path"   : "discard-humanity.html",
+				"images" : [
+					{ "name": "discard-humanity_01.jpg", "label": "Interface de jeu de <i>Discard Humanity</i>" },
+					{ "name": "discard-humanity_02.png", "label": "Logo de <i>Cards Against Humanity</i>" }
+				]
+			},
+			
+			{
+				"title" : "USI Calculus",
+				"date"  : "2016.05.23",
+				"edit"  : "2017.02.27",
+				"short" : "Mat&eacute;riel du cours donn&eacute; par Prof. Michael Bronstein &agrave; l'<a href=\"http://www.inf.usi.ch/\">USI</a>.",
+				"path"  : "usi-calculus.html"
+			},
+			
+			{
+				"title" : "SingaSonga",
+				"date"  : "2017.02.01",
+				"edit"  : "2017.02.01",
+				"short" : "SingaSonga is a game developed during the 2017 <a href=\"http://globalgamejam.org/\">Global Game Jam</a>.",
+				"path"  : "singasonga.html",
+				"images" : [
+					{ "name": "singasonga_01.png", "label": "Logo de <i>SingaSonga</i>" },
+					{ "name": "singasonga_02.png", "label": "Interface de jeu di <i>SingaSonga</i>" }
+				]
+			},
+
+			{
+				"title" : "The Forgotten Land",
+				"date"  : "2018.01.24",
+				"edit"  : "2018.01.24",
+				"short" : "The Forgotten Land est un jeu vid&eacute;o de strat&eacute;gie isom&eacute;trique.",
+				"path"  : "forgotten-land.html",
+				"images" : [
+					{ "name": "the-forgotten-land_01.png", "label": "Logo de <i>The Forgotten Land</i>" }
+				]
+			}
+
+		]
+	}
+}

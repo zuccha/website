@@ -1,0 +1,136 @@
+{
+	"en" : {
+
+		"intro" : {
+			"title" : "Studies",
+			"body" : "<p>I'm currently studying informatics at <a href=\"http://www.inf.usi.ch/\">Universit&agrave; della Svizzera italiana</a>, in Lugano. I previously studied in <a href=\"http://www.unine.ch/\">Neuch&acirc;tel</a>, where I obtained a bachelor's degree in history and art history.</p>"
+		},
+		
+		"articles" : [
+
+			{
+				"title"       : "Bachelor in Informatics",
+				"period"      : "2015.09-<i>present</i>",
+				"place"       : "Universit&agrave; della Svizzera italiana, Lugano, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://www.inf.usi.ch/",
+					"name" : "USI"
+				}
+			},
+
+			{
+				"title"       : "Bachelor of Arts",
+				"period"      : "2012.09-2015.06",
+				"place"       : "Universit&eacute; de Neuch&acirc;tel, Neuch&acirc;tel, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://unine.ch/",
+					"name" : "UniNE"
+				}
+			},
+
+			{
+				"title"       : "<i>Maturit&agrave; Cantonale</i>",
+				"period"      : "2006.09-2011.06",
+				"place"       : "Liceo cantonale di Lugano 2, Savosa, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://www.lilu2.ch/",
+					"name" : "LiLu2"
+				}
+			}
+		]
+
+	},
+
+	"it" : {
+
+		"intro" : {
+			"title" : "Studi",
+			"body" : "<p>Attualmente studio informatica all'<a href=\"http://www.inf.usi.ch/\">Universit&agrave; della Svizzera italiana</a> a Lugano. Ho precedentemente studiato e ottenuto un bachelor in storia e storia dell'arte a <a href=\"http://www.unine.ch/\">Neuch&acirc;tel</a>.</p>"
+		},
+		
+		"articles" : [
+
+			{
+				"title"       : "Bachelor in Informatica",
+				"period"      : "2015.09-<i>presente</i>",
+				"place"       : "Universit&agrave; della Svizzera italiana, Lugano, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://www.inf.usi.ch/it/index.htm",
+					"name" : "USI"
+				}
+			},
+
+			{
+				"title"       : "Bachelor in Lettere e Scienze Umane",
+				"period"      : "2012.09-2015.06",
+				"place"       : "Universit&eacute; de Neuch&acirc;tel, Neuch&acirc;tel, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://unine.ch/",
+					"name" : "UniNE"
+				}
+			},
+
+			{
+				"title"       : "Maturit&agrave; Cantonale",
+				"period"      : "2006.09-2011.06",
+				"place"       : "Liceo cantonale di Lugano 2, Savosa, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://www.lilu2.ch/",
+					"name" : "LiLu2"
+				}
+			}
+		]
+
+	},
+	
+	"fr" : {
+
+		"intro" : {
+			"title" : "&Eacute;tudes",
+			"body" : "<p>Actuellement j'&eacute;tudie informatique &agrave; l'<a href=\"http://www.inf.usi.ch/\">Universit&agrave; della Svizzera italiana</a>, &agrave; Lugano. J'ai auparavant &eacute;tudi&eacute; histoire et histoire de l'art &agrave; <a href=\"http://www.unine.ch/\">Neuch&acirc;tel</a>, pour lesquelles j'ai obtenu un bachelor en Lettres et sciences humaines.</p>"
+		},
+		
+		"articles" : [
+
+			{
+				"title"       : "Bachelor en Informatique",
+				"period"      : "2015.09-<i>pr&eacute;sent</i>",
+				"place"       : "Universit&agrave; della Svizzera italiana, Lugano, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://www.inf.usi.ch/",
+					"name" : "USI"
+				}
+			},
+
+			{
+				"title"       : "Bachelor en Lettres et science humaines",
+				"period"      : "2012.09-2015.06",
+				"place"       : "Universit&eacute; de Neuch&acirc;tel, Neuch&acirc;tel, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://unine.ch/",
+					"name" : "UniNE"
+				}
+			},
+
+			{
+				"title"       : "<i>Maturit&agrave; Cantonale</i>",
+				"period"      : "2006.09-2011.06",
+				"place"       : "Liceo cantonale di Lugano 2, Savosa, CH",
+				"description" : "",
+				"website"     : {
+					"link" : "http://www.lilu2.ch/",
+					"name" : "LiLu2"
+				}
+			}
+		]
+
+	}
+}
