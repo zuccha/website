@@ -13,7 +13,7 @@ const langs = [ 'en', 'it', 'fr' ];
 
 // Directories
 const dir_dev   = './dev';
-const dir_prod  = './public_html';
+const dir_prod  = './www';
 const dir_css   = 'css';
 const dir_docs  = 'docs';
 const dir_fonts = 'fonts';

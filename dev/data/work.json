@@ -9,24 +9,13 @@
 		"articles" : [
 			
 			{
-				"title"       : "Intern Software Developer",
+				"title"       : "Software Developer",
 				"period"      : "2017.12-present",
 				"place"       : "WellD, Lugano, CH",
 				"description" : "Software development and analysis.",
 				"website"     : {
 					"link" : "https://www.welld.ch/en/index.html",
 					"name" : "WellD"
-				}
-			},
-			
-			{
-				"title"       : "USI Academic Senate Member",
-				"period"      : "2017.03-present",
-				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
-				"description" : "Student representative for the faculty of Informatics in the USI Academic Senate.",
-				"website"     : {
-					"link" : "https://www.usi.ch/en/academic-senate",
-					"name" : "USI"
 				}
 			},
 			
@@ -51,7 +40,7 @@
 					"name" : "Hugo Boss"
 				}
 			},
-
+						
 			{
 				"title"       : "Research Assistant",
 				"period"      : "2017.07-2017.09",
@@ -60,6 +49,17 @@
 				"website"     : {
 					"link" : "http://verify.inf.usi.ch/FVBTR",
 					"name" : "OpenSMT"
+				}
+			},
+			
+			{
+				"title"       : "USI Academic Senate Member",
+				"period"      : "2017.03-2018.06",
+				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
+				"description" : "Student representative for the faculty of Informatics in the USI Academic Senate.",
+				"website"     : {
+					"link" : "https://www.usi.ch/en/academic-senate",
+					"name" : "USI"
 				}
 			},
 			
@@ -99,24 +99,13 @@
 		"articles" : [
 
 			{
-				"title"       : "Stagista Sviluppatore Software",
+				"title"       : "Sviluppatore Software",
 				"period"      : "2017.12-presente",
 				"place"       : "WellD, Lugano, CH",
 				"description" : "Sviluppo di applicazioni e analisi software.",
 				"website"     : {
 					"link" : "https://www.welld.ch/it/index.html",
 					"name" : "WellD"
-				}
-			},
-			
-			{
-				"title"       : "Membro del Senato Accademico dell'USI",
-				"period"      : "2017.03-presente",
-				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
-				"description" : "Rappresentante della facolt&agrave; di informatica per il Senato Accademico dell'USI.",
-				"website"     : {
-					"link" : "https://www.usi.ch/it/senato-accademico",
-					"name" : "USI"
 				}
 			},
 			
@@ -150,6 +139,17 @@
 				"website"     : {
 					"link" : "http://verify.inf.usi.ch/FVBTR",
 					"name" : "OpenSMT"
+				}
+			},
+			
+			{
+				"title"       : "Membro del Senato Accademico dell'USI",
+				"period"      : "2017.03-2018.06",
+				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
+				"description" : "Rappresentante della facolt&agrave; di informatica per il Senato Accademico dell'USI.",
+				"website"     : {
+					"link" : "https://www.usi.ch/it/senato-accademico",
+					"name" : "USI"
 				}
 			},
 			
@@ -189,24 +189,13 @@
 		"articles" : [
 
 						{
-				"title"       : "Stagiaire D&eacute;veloppeur Logiciel",
+				"title"       : "D&eacute;veloppeur Logiciel",
 				"period"      : "2017.12-pr&eacute;sent",
 				"place"       : "WellD, Lugano, CH",
 				"description" : "D&eacute;veloppement et analyse de logiciels.",
 				"website"     : {
 					"link" : "https://www.welld.ch/en/index.html",
 					"name" : "WellD"
-				}
-			},
-			
-			{
-				"title"       : "Membre du S&eacute;nat Universitaire de l'USI",
-				"period"      : "2017.03-pr&eacute;sent",
-				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
-				"description" : "&Eacute;tudiant repr&eacute;sentant de la facult&eacute; d'Informatique du s&eacute;nat universitaire de l'USI.",
-				"website"     : {
-					"link" : "https://www.usi.ch/en/academic-senate",
-					"name" : "USI"
 				}
 			},
 			
@@ -242,7 +231,18 @@
 					"name" : "OpenSMT"
 				}
 			},
-			
+
+			{
+				"title"       : "Membre du S&eacute;nat Universitaire de l'USI",
+				"period"      : "2017.03-2018.06",
+				"place"       : "Universit&#224; della Svizzera italiana, Lugano, CH",
+				"description" : "&Eacute;tudiant repr&eacute;sentant de la facult&eacute; d'Informatique du s&eacute;nat universitaire de l'USI.",
+				"website"     : {
+					"link" : "https://www.usi.ch/en/academic-senate",
+					"name" : "USI"
+				}
+			},
+						
 			{
 				"title"       : "Collaborateur Mus&eacute;al",
 				"period"      : "2015.06-2015.09",
