@@ -3,7 +3,7 @@
 		
 		"intro" : {
 			"title" : "Projects",
-			"body" : "A list of projects I worked on. It might include every kind of work: from computer programs, to lecture notes, to research papers."
+			"body" : "A list of projects I worked on. It includes both computer programs university lecture notes."
 		},
 
 		"articles" : [
@@ -58,7 +58,7 @@
 		
 		"intro" : {
 			"title" : "Progetti",
-			"body" : "Una lista di progetti sui quali ho lavorato. Pu&ograve; includere ogni tipo di lavoro: applicazioni, appunti di corsi universitari, saggi di ricerca."
+			"body" : "Una lista di progetti sui quali ho lavorato. Sono inclusi sia applicazioni, sia appunti universitari."
 		},
 
 		"articles" : [
@@ -113,7 +113,7 @@
 		
 		"intro" : {
 			"title" : "Projets",
-			"body" : "Une liste de projets sur lesquels j'ai travaill&eacute;. Cela peuvent &ecirc;tre des logiciels, des notes de cours universitaires, des comptes-rendus."
+			"body" : "Une liste de projets sur lesquels j'ai travaill&eacute;. Cela conprend logiciels et notes de cours universitaires."
 		},
 
 		"articles" : [

@@ -21,7 +21,7 @@
 	
 	/* Margins and borders */
 	--az-border-color: var(--az-color-fg-l);
-	--az-border-size: 3px;
+	--az-border-size: 2px;
 	--az-margin-size: 16px;
 
 	/* (Max/min) heights/witdths */

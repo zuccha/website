@@ -1,25 +1,22 @@
 {
 	"en" : {
-		
 		"intro" : {
 			"title" : "Amedeo Zucchetti",
-			"body" : "<p>Hello, I'm <b>Amedeo Zucchetti</b>.</p><p>I'm an informatics student at <a href=\"https://www.usi.ch/en/node\">USI</a>, Lugano, but I've also studied history and art history in <a href=\"http://unine.ch/\">Neuch&acirc;tel</a>. Currently, I'm member of the board of directors of <a href=\"https://www.banana.ch/fr\">Banana.ch</a> and I'm working at <a href=\"https://www.welld.ch/en/index.html\">WellD</a> as a software developer intern. During my free time, I like to play unihockey and board games.<p>Feel free to contact me any time, or just check out my <a href=\"docs/about/cv/zucchetti_cv_en.pdf\">CV</a>.</p>"
+			"body" : "<p>Hello, I'm <b>Amedeo Zucchetti</b>.</p><p>I'm a software developer at <a href=\"https://www.welld.ch/en/index.html\">WellD</a> in Lugano, Switzerland; I'm also member of the board of directors of <a href=\"https://www.banana.ch/fr\">Banana.ch</a>. I studied informatics at <a href=\"https://www.usi.ch/en/node\">USI</a>, Lugano, and history and art history in <a href=\"http://unine.ch/\">Neuch&acirc;tel</a>. During my free time, I like to play unihockey and board games.<p>Feel free to contact me any time, or just check out my <a href=\"docs/about/cv/zucchetti_cv_en.pdf\">CV</a>.</p>"
 		}
 	},
 
 	"it" : {
-		
 		"intro" : {
 			"title" : "Amedeo Zucchetti",
-			"body" : "<p>Ciao, sono <b>Amedeo Zucchetti</b>.</p><p>Studio informatica all'<a href=\"https://www.usi.ch/\">USI</a>, Lugano, ma ho anche studiato storia e storia dell'arte a <a href=\"http://unine.ch/\">Neuch&acirc;tel</a>. Attualmente, sono membro del consiglio di amministrazione di <a href=\"https://www.banana.ch/\">Banana.ch</a> e lavoro presso <a href=\"https://www.welld.ch/it/index.html\">WellD</a> come stagista ingeniere informatico. Durante il mio tempo libero, mi piace giocare a unihockey e a giochi da tavolo.<p>Sentiti libero di contattarmi in qualsiasi momento, oppure leggi semplicemente il mio <a href=\"docs/about/cv/zucchetti_cv_it.pdf\">CV</a>.</p>"
+			"body" : "<p>Ciao, sono <b>Amedeo Zucchetti</b>.</p><p>Lavoro come sviuppatore presso <a href=\"https://www.welld.ch/it/index.html\">WellD</a> a Lugano, Svizzera; sono anche membro del consiglio di amministrazione di <a href=\"https://www.banana.ch/\">Banana.ch</a>. Ho studiato informatica all'<a href=\"https://www.usi.ch/\">USI</a>, Lugano, e storia e storia dell'arte a <a href=\"http://unine.ch/\">Neuch&acirc;tel</a>. Durante il mio tempo libero, mi piace giocare a unihockey e a giochi da tavolo.<p>Sentiti libero di contattarmi in qualsiasi momento, oppure leggi il mio <a href=\"docs/about/cv/zucchetti_cv_it.pdf\">CV</a>.</p>"
 		}
 	},
 
 	"fr" : {
-		
 		"intro" : {
 			"title" : "Amedeo Zucchetti",
-			"body" : "<p>Salut, je suis <b>Amedeo Zucchetti</b>.</p><p>J'&eacute;tudie informatique &agrave; l'<a href=\"https://www.usi.ch/\">USI</a>, Lugano, mais j'ai aussi &eacute;tudi&eacute; histoire et histoire de l'art &agrave; <a href=\"http://unine.ch/\">Neuch&acirc;tel</a>. Actuellement, je suis membre du conseil d'administration de <a href=\"https://www.banana.ch/en\">Banana.ch</a> et je travail chez <a href=\"https://www.welld.ch/en/index.html\">WellD</a> comme stagiaire ing&eacute;nieur informaticien. Pendant mon temps libre, j'aime jouer &agrave; unihockey et &agrave; jeux de soci&eacute;t&eacute;.<p>N'h&eacute;site pas &agrave; me contacter, ou simplement lire mon <a href=\"docs/about/cv/zucchetti_cv_fr.pdf\">CV</a>.</p>"
+			"body" : "<p>Salut, je suis <b>Amedeo Zucchetti</b>.</p><p>Je suis ing&eacute;nieur informaticien chez <a href=\"https://www.welld.ch/en/index.html\">WellD</a> &agrave; Lugano, Suisse; je suis aussi membre du conseil d'administration de <a href=\"https://www.banana.ch/en\">Banana.ch</a>. J'ai &eacute;tudi&eacute; informatique &agrave; l'<a href=\"https://www.usi.ch/\">USI</a> et histoire et histoire de l'art &agrave; <a href=\"http://unine.ch/\">Neuch&acirc;tel</a>. Pendant mon temps libre, j'aime jouer &agrave; unihockey et &agrave; jeux de soci&eacute;t&eacute;.<p>N'h&eacute;site pas &agrave; me contacter, ou &agrave; lire mon <a href=\"docs/about/cv/zucchetti_cv_fr.pdf\">CV</a>.</p>"
 		}
 	}
 }
