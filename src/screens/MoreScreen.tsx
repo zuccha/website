@@ -7,7 +7,7 @@ const MoreScreen = () => {
   const routes = React.useMemo(
     () => [
       {
-        url: "/guides/ds3",
+        url: "/guides/dark-souls-3-any-glitchless-sl1",
         label: "DS3 Any%, Glitchless, SL1",
       },
     ],
