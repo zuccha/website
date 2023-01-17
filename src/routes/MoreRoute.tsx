@@ -8,7 +8,7 @@ const MoreScreen = () => {
     () => [
       {
         url: "/guides/dark-souls-3-any-glitchless-sl1",
-        label: "DS3 Any%, Glitchless, SL1",
+        label: "Dark Souls III",
       },
     ],
     [window.location.origin]
