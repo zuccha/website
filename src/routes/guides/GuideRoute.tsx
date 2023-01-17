@@ -1,9 +1,29 @@
 import { useMemo } from "https://esm.sh/v103/@types/react@18.0.26/index.d.ts";
+import { GenericInstruction } from "https://raw.githubusercontent.com/zuccha/guider/0.3.0/mod.ts";
 import { Guider, React, ReactRouterDOM } from "../../../deps.ts";
 import GuideFilters from "../../components/GuideFilters.tsx";
 import GuideViewer from "../../components/GuideViewer.tsx";
 import Text from "../../components/Text.tsx";
 import useResource from "../../hooks/useResource.ts";
+
+type SearchParams = {
+  hideComments: boolean;
+  hideOptional: boolean;
+  hideSafety: boolean;
+  ignoredRules: number[];
+};
+
+const formatUrl = (location: string, options: SearchParams): string => {
+  const params: string[] = [];
+  if (options.hideComments) params.push("hide-comments");
+  if (options.hideOptional) params.push("hide-optional");
+  if (options.hideSafety) params.push("hide-safety");
+  if (options.ignoredRules.length > 0)
+    params.push(
+      `ignored-rules=${options.ignoredRules.map((rule) => `${rule}`).join(",")}`
+    );
+  return params.length === 0 ? location : `${location}?${params.join("&")}`;
+};
 
 const GuideScreen = () => {
   const location = ReactRouterDOM.useLocation();
@@ -58,34 +78,49 @@ const GuideScreen = () => {
   }, [guide]);
 
   const handleToggleHideComments = React.useCallback(() => {
-    setOptions((prevOptions) => ({
-      ...prevOptions,
-      hideComments: !prevOptions.hideComments,
-    }));
-  }, []);
+    setOptions((prevOptions) => {
+      const hideComments = !prevOptions.hideComments;
+      const nextOptions = { ...prevOptions, hideComments };
+      const url = formatUrl(location.pathname, nextOptions);
+      history.replaceState(history.state, "", url);
+      return nextOptions;
+    });
+  }, [location.pathname]);
 
   const handleToggleHideOptional = React.useCallback(() => {
-    setOptions((prevOptions) => ({
-      ...prevOptions,
-      hideOptional: !prevOptions.hideOptional,
-    }));
-  }, []);
+    setOptions((prevOptions) => {
+      const hideOptional = !prevOptions.hideOptional;
+      const nextOptions = { ...prevOptions, hideOptional };
+      const url = formatUrl(location.pathname, nextOptions);
+      history.replaceState(history.state, "", url);
+      return nextOptions;
+    });
+  }, [location.pathname]);
 
   const handleToggleHideSafety = React.useCallback(() => {
-    setOptions((prevOptions) => ({
-      ...prevOptions,
-      hideSafety: !prevOptions.hideSafety,
-    }));
-  }, []);
+    setOptions((prevOptions) => {
+      const hideSafety = !prevOptions.hideSafety;
+      const nextOptions = { ...prevOptions, hideSafety };
+      const url = formatUrl(location.pathname, nextOptions);
+      history.replaceState(history.state, "", url);
+      return nextOptions;
+    });
+  }, [location.pathname]);
 
-  const handleToggleIgnoredRule = React.useCallback((rule: number) => {
-    setOptions((prevOptions) => ({
-      ...prevOptions,
-      ignoredRules: prevOptions.ignoredRules.includes(rule)
-        ? prevOptions.ignoredRules.filter((other) => other !== rule)
-        : [...prevOptions.ignoredRules, rule],
-    }));
-  }, []);
+  const handleToggleIgnoredRule = React.useCallback(
+    (rule: number) => {
+      setOptions((prevOptions) => {
+        const ignoredRules = prevOptions.ignoredRules.includes(rule)
+          ? prevOptions.ignoredRules.filter((other) => other !== rule)
+          : [...prevOptions.ignoredRules, rule];
+        const nextOptions = { ...prevOptions, ignoredRules };
+        const url = formatUrl(location.pathname, nextOptions);
+        history.replaceState(history.state, "", url);
+        return nextOptions;
+      });
+    },
+    [location.pathname]
+  );
 
   if (status === "initial" || status === "loading") {
     return null;
