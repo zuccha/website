@@ -1,0 +1,10 @@
+import * as React from "https://esm.sh/react@18.2.0";
+export * as FontAwesomeSvgCore from "https://esm.sh/@fortawesome/fontawesome-svg-core@6.2.1";
+export * as FreeBrandsSvgIcons from "https://esm.sh/@fortawesome/free-brands-svg-icons@6.2.1";
+export * as FreeSolidSvgIcons from "https://esm.sh/@fortawesome/free-solid-svg-icons@6.2.1";
+export * as ReactFontAwesome from "https://esm.sh/@fortawesome/react-fontawesome@0.2.0";
+export * as ReactDOM from "https://esm.sh/react-dom@18.2.0";
+export * as ReactRouterDOM from "https://esm.sh/react-router-dom@6.6.2";
+
+const { ...rest } = React;
+export { rest as React };
