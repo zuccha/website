@@ -1,5 +1,3 @@
-import { useMemo } from "https://esm.sh/v103/@types/react@18.0.26/index.d.ts";
-import { GenericInstruction } from "https://raw.githubusercontent.com/zuccha/guider/0.3.0/mod.ts";
 import { Guider, React, ReactRouterDOM } from "../../../deps.ts";
 import GuideFilters from "../../components/GuideFilters.tsx";
 import GuideViewer from "../../components/GuideViewer.tsx";

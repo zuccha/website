@@ -15,6 +15,7 @@ const components = {
   h4: ({ node, ...props }) => <h4 {...props} className="text-h4" />,
   h5: ({ node, ...props }) => <h5 {...props} className="text-h5" />,
   li: ({ node, ...props }) => <li className="text-t1" {...props} />,
+  ol: ({ node, ...props }) => <ol className="md-ol" {...props} />,
   p: ({ node, ...props }) => <p className="text-t1" {...props} />,
   table: ({ node, ...props }) => <table className="md-table" {...props} />,
   td: ({ node, ...props }) => <td className="text-t1" {...props} />,
