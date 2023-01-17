@@ -7,12 +7,9 @@ interface HeaderProps {
 
 const Header = ({ title }: HeaderProps) => {
   return (
-    <>
-      <link rel={"stylesheet"} href={"./static/css/components/Header.css"} />
-      <div className="header">
-        <Text text={title} variant="h1" align="center" />
-      </div>
-    </>
+    <div className="header">
+      <Text text={title} variant="h1" align="center" />
+    </div>
   );
 };
 

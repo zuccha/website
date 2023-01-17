@@ -21,25 +21,19 @@ const NavigationGrid = ({
       : "navigation-grid-right";
 
   return (
-    <>
-      <link
-        rel={"stylesheet"}
-        href={"./static/css/components/NavigationGrid.css"}
-      />
-      <div className="navigation-grid">
-        <div className={navigationGridClassName}>
-          {routes.map((route) => (
-            <Button
-              key={route.label}
-              href={route.url}
-              icon={route.icon}
-              isExternalLink={route.isExternalLink}
-              label={route.label}
-            />
-          ))}
-        </div>
+    <div className="navigation-grid">
+      <div className={navigationGridClassName}>
+        {routes.map((route) => (
+          <Button
+            key={route.label}
+            href={route.url}
+            icon={route.icon}
+            isExternalLink={route.isExternalLink}
+            label={route.label}
+          />
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 
