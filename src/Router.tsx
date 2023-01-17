@@ -1,7 +1,7 @@
 import { React, ReactRouterDOM } from "../deps.ts";
 import HomeRoute from "./routes/HomeRoute.tsx";
+import GuideRoute from "./routes/GuideRoute.tsx";
 import MoreRoute from "./routes/MoreRoute.tsx";
-import GuideRoute from "./routes/guides/GuideRoute.tsx";
 
 const App = () => {
   return (

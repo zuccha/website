@@ -7,7 +7,7 @@
 @import url("./components/NavigationGrid.css");
 @import url("./components/Separator.css");
 @import url("./components/Text.css");
-@import url("./routes/guides/GuideRoute.css");
+@import url("./routes/GuideRoute.css");
 
 * {
   --spacing-1: 8px;

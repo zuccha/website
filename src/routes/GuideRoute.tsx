@@ -1,8 +1,8 @@
-import { Guider, React, ReactRouterDOM } from "../../../deps.ts";
-import GuideFilters from "../../components/GuideFilters.tsx";
-import GuideViewer from "../../components/GuideViewer.tsx";
-import Text from "../../components/Text.tsx";
-import useResource from "../../hooks/useResource.ts";
+import { Guider, React, ReactRouterDOM } from "../../deps.ts";
+import GuideFilters from "../components/GuideFilters.tsx";
+import GuideViewer from "../components/GuideViewer.tsx";
+import Text from "../components/Text.tsx";
+import useResource from "../hooks/useResource.ts";
 
 type SearchParams = {
   hideComments: boolean;
