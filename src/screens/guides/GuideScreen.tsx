@@ -1,4 +1,11 @@
-import { Guider, React, ReactRouterDOM } from "../../../deps.ts";
+import {
+  Guider,
+  React,
+  ReactMarkdown,
+  ReactRouterDOM,
+  RehypeRaw,
+  RemarkGfm,
+} from "../../../deps.ts";
 import Text from "../../components/Text.tsx";
 import useResource from "../../hooks/useResource.ts";
 
@@ -7,6 +14,13 @@ const GuideScreen = () => {
 
   const pathnames = location.pathname.split("/");
   const name = pathnames[pathnames.length - 1];
+
+  const options = React.useMemo(
+    () => ({
+      hideInstructionId: true,
+    }),
+    []
+  );
 
   const parseGuide = React.useCallback(
     (data: string): Guider.Guide<Guider.GenericInstruction> => {
@@ -33,7 +47,11 @@ const GuideScreen = () => {
     return <Text text="Guide is not valid :(" variant="h3" />;
   }
 
-  return <div>{guide.format()}</div>;
+  return (
+    <ReactMarkdown rehypePlugins={[RehypeRaw]} remarkPlugins={[RemarkGfm]}>
+      {guide.format(options)}
+    </ReactMarkdown>
+  );
 };
 
 export default GuideScreen;

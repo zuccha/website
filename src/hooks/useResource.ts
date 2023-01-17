@@ -20,7 +20,6 @@ const useResource = <T>(
         setResource([undefined, "loading"]);
         const response = await fetch(url);
         const data = await response.text();
-        console.log(data);
         const parsedData = parse(data);
         setResource([parsedData, "success"]);
       } catch {

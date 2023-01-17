@@ -15,7 +15,7 @@ const MoreScreen = () => {
   );
 
   return (
-    <div className="home-screen">
+    <div className="route-compact">
       <Header title="Guides" />
       <Separator />
       <NavigationGrid routes={routes} />

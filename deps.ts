@@ -5,7 +5,10 @@ export * as FreeSolidSvgIcons from "https://esm.sh/@fortawesome/free-solid-svg-i
 export * as Guider from "https://raw.githubusercontent.com/zuccha/guider/0.1.0/mod.ts";
 export * as ReactFontAwesome from "https://esm.sh/@fortawesome/react-fontawesome@0.2.0";
 export * as ReactDOM from "https://esm.sh/react-dom@18.2.0";
+export { default as ReactMarkdown } from "https://esm.sh/react-markdown@7";
 export * as ReactRouterDOM from "https://esm.sh/react-router-dom@6.6.2";
+export { default as RehypeRaw } from "https://esm.sh/rehype-raw@6";
+export { default as RemarkGfm } from "https://esm.sh/remark-gfm@3.0.1";
 
 const { ...rest } = React;
 export { rest as React };

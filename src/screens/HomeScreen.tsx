@@ -45,7 +45,7 @@ const HomeScreen = () => {
   );
 
   return (
-    <div className="home-screen">
+    <div className="route-compact">
       <Header title="Amedeo Zucchetti" />
       <Separator />
       <NavigationGrid routes={routes} lastRowAlignment="right" />
