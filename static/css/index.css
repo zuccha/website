@@ -1,5 +1,6 @@
 @import url("./Router.css");
 @import url("./components/Button.css");
+@import url("./components/GuideViewer.css");
 @import url("./components/Header.css");
 @import url("./components/NavigationGrid.css");
 @import url("./components/Separator.css");
@@ -23,6 +24,8 @@
   --color-neutral-8: #374151;
   --color-neutral-9: #1f2937;
   --color-neutral-10: #111827;
+
+  --color-primary-1: #0089c4;
 
   --font-heading: "Helvetica Neue", "Helvetica", sans-serif;
   --font-text: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

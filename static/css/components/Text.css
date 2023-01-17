@@ -1,38 +1,44 @@
 .text-h1 {
   font-family: var(--font-heading);
   font-size: 2em;
-  color: var(--color-neutral-8);
+  font-weight: normal;
+  color: var(--color-neutral-9);
 }
 
 .text-h2 {
   font-family: var(--font-heading);
   font-size: 1.8em;
-  color: var(--color-neutral-8);
+  font-weight: normal;
+  color: var(--color-neutral-9);
 }
 
 .text-h3 {
   font-family: var(--font-heading);
   font-size: 1.6em;
-  color: var(--color-neutral-8);
+  font-weight: normal;
+  color: var(--color-neutral-9);
 }
 
 .text-h4 {
   font-family: var(--font-heading);
   font-size: 1.4em;
-  color: var(--color-neutral-8);
+  font-weight: normal;
+  color: var(--color-neutral-9);
 }
 
 .text-h5 {
   font-family: var(--font-heading);
   font-size: 0.9em;
-  color: var(--color-neutral-8);
+  font-weight: normal;
+  color: var(--color-neutral-9);
   text-transform: uppercase;
 }
 
 .text-t1 {
   font-family: var(--font-text);
   font-size: 1em;
-  color: var(--color-neutral-8);
+  font-weight: normal;
+  color: var(--color-neutral-9);
 }
 
 .text-left {

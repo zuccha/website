@@ -1,11 +1,5 @@
-import {
-  Guider,
-  React,
-  ReactMarkdown,
-  ReactRouterDOM,
-  RehypeRaw,
-  RemarkGfm,
-} from "../../../deps.ts";
+import { Guider, React, ReactRouterDOM } from "../../../deps.ts";
+import GuideViewer from "../../components/GuideViewer.tsx";
 import Text from "../../components/Text.tsx";
 import useResource from "../../hooks/useResource.ts";
 
@@ -17,6 +11,7 @@ const GuideScreen = () => {
 
   const options = React.useMemo(
     () => ({
+      collapseInstructionGroups: true,
       hideInstructionId: true,
     }),
     []
@@ -47,11 +42,7 @@ const GuideScreen = () => {
     return <Text text="Guide is not valid :(" variant="h3" />;
   }
 
-  return (
-    <ReactMarkdown rehypePlugins={[RehypeRaw]} remarkPlugins={[RemarkGfm]}>
-      {guide.format(options)}
-    </ReactMarkdown>
-  );
+  return <GuideViewer markdown={guide.format(options)} />;
 };
 
 export default GuideScreen;
