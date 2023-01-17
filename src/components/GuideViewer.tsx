@@ -1,5 +1,4 @@
 import { React, ReactMarkdown, RehypeRaw, RemarkGfm } from "../../deps.ts";
-import Text from "./Text.tsx";
 
 type GuideViewerProps = {
   markdown: string;
