@@ -49,11 +49,11 @@ const GuideFilters = ({
           onToggleChecked={onToggleHideSafety}
         />
       </div>
-      {Object.entries(rules).map(([id]) => (
-        <div key={id} className="guide-filters-filter">
+      {Object.entries(rules).map(([id, description]) => (
+        <div key={id} className="guide-filters-filter" title={description}>
           <Checkbox
             isChecked={ignoredRules.includes(Number(id))}
-            label={`Ignore rule ${id}`}
+            label={`Ignore rule ${id} ⓘ`}
             onToggleChecked={() => onToggleIgnoredRule(Number(id))}
           />
         </div>

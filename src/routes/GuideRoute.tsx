@@ -21,7 +21,9 @@ const formatUrl = (location: string, options: SearchParams): string => {
     params.push(
       `ignored-rules=${options.ignoredRules.map((rule) => `${rule}`).join(",")}`
     );
-  return params.length === 0 ? location : `${location}?${params.join("&")}`;
+  return params.length === 0
+    ? `/#${location}`
+    : `/#${location}?${params.join("&")}`;
 };
 
 const GuideScreen = () => {
