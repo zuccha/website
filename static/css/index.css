@@ -12,6 +12,8 @@
 @import url("./routes/GuideRoute.css");
 
 * {
+  --max-page-width: 800px;
+
   --spacing-1: 8px;
   --spacing-2: 12px;
   --spacing-3: 16px;
