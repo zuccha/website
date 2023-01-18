@@ -19,7 +19,7 @@ const MoreScreen = () => {
 
   return (
     <div className="more-route">
-      <NavigationBar showBack />
+      <NavigationBar backUrl="/" />
       <div className={"more-route-content"}>
         <Header title="Guides" />
         <Separator />

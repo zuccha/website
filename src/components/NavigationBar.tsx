@@ -1,4 +1,4 @@
-import { FreeSolidSvgIcons, React, ReactRouterDOM } from "../../deps.ts";
+import { FreeRegularSvgIcons, React, ReactRouterDOM } from "../../deps.ts";
 import Button from "./Button.tsx";
 
 interface NavigationBarProps {
@@ -8,27 +8,27 @@ interface NavigationBarProps {
     onClick: () => void;
   }[];
   contentBelow?: React.ReactNode;
-  showBack?: boolean;
+  backUrl?: string;
 }
 
 const NavigationBar = ({
   actions = [],
   contentBelow,
-  showBack,
+  backUrl,
 }: NavigationBarProps) => {
   const navigate = ReactRouterDOM.useNavigate();
   const handleGoBack = React.useCallback(() => {
-    navigate(-1);
+    if (backUrl) navigate(backUrl);
   }, []);
 
   return (
     <div className="navigation-bar">
       <div className="navigation-bar-header">
-        {showBack ? (
+        {backUrl ? (
           <Button
             onClick={handleGoBack}
             label="Back"
-            icon={FreeSolidSvgIcons.faChevronLeft}
+            icon={FreeRegularSvgIcons.faArrowAltCircleLeft}
             hideBorder
           />
         ) : (

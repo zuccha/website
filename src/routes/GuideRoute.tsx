@@ -138,18 +138,28 @@ const GuideScreen = () => {
     [hideFilters, toggleFilters]
   );
 
+  const navigate = ReactRouterDOM.useNavigate();
+  const handleGoBack = React.useCallback(() => {
+    navigate("/more");
+  }, []);
+
   if (status === "initial" || status === "loading") {
     return null;
   }
 
   if (status === "failure") {
-    return <CourtesyMessage title="The guide is not valid :(" />;
+    return (
+      <CourtesyMessage
+        title="The guide is not valid :("
+        action={{ label: "BACK", onClick: handleGoBack }}
+      />
+    );
   }
 
   return (
     <div className="guide-route">
       <NavigationBar
-        showBack
+        backUrl="/more"
         actions={navigationBarActions}
         contentBelow={
           <div
