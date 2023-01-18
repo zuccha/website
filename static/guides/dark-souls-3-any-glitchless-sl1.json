@@ -10,8 +10,8 @@
     "This is not a speed run guide, as it's missing many optimizations required for competitive times, but you can still play it going fast."
   ],
   "resources": [
-    "[Generic high-level SL1 guide](https://tinyurl.com/5n7fnjyu)",
-    "[SL1, Glitchless speed run guide](https://tinyurl.com/4jpa9uxx) (in French)"
+    "[Generic high-level SL1 guide](https://www.reddit.com/r/darksouls3/comments/4g4wy9/dark_souls_3_sl1_guide/)",
+    "[SL1, Glitchless speed run guide](https://docs.google.com/spreadsheets/d/19GMDO2F7vBZrIQsa79idLOaa0ExokY1BWAo6OaSiQsI/edit#gid=656115109) (in French)"
   ],
   "instructions": [
     {
@@ -52,7 +52,7 @@
       "where": "behind the first hollow"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Cemetery of Ash",
       "type": "light-bonfire",
       "bonfire": "Cemetery of Ash",
@@ -107,7 +107,7 @@
       "bonfire": "High Wall of Lothric"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "High Wall of Lothric",
       "type": "light-bonfire",
       "bonfire": "High Wall of Lothric",
@@ -120,7 +120,7 @@
       "where": "inside tunnel beneath dead wyvern"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "High Wall of Lothric",
       "type": "light-bonfire",
       "bonfire": "Tower on the Wall",
@@ -133,7 +133,7 @@
       "where": "on the roof after mini-Gundyr"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "High Wall of Lothric",
       "type": "grab-items",
       "items": [{ "name": "Black Firebomb", "quantity": 3 }],
@@ -156,7 +156,7 @@
       "where": "on the anvil at the bottom floor of the building"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "High Wall of Lothric",
       "type": "unlock-shortcut",
       "where": "by running to the elevator and opening the closed gate near the _High Wall of Lothric_ bonfire",
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Undead Settlement",
       "type": "light-bonfire",
       "bonfire": "Undead Settlement",
@@ -231,7 +231,7 @@
       "text": "Run through the burg in the direction of the _Dilapidated Bridge_ bonfire"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Undead Settlement",
       "type": "light-bonfire",
       "bonfire": "Dilapidated Bridge",
@@ -246,7 +246,7 @@
       "comments": ["Enjoy the giant archer killing the farmers for you"]
     },
     {
-      "hideOnIgnoredRules": [8],
+      "hideOnIgnoredRules": [7],
       "area": "Undead Settlement",
       "type": "comment",
       "text": "Run all the way through the rest of the burg until the _Road of Sacrifices_ bonfire",
@@ -255,7 +255,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [8],
+      "showOnIgnoredRules": [7],
       "area": "Undead Settlement",
       "type": "comment",
       "text": "Run all the way through the rest of the burg until the _Road of Sacrifices_ bonfire",
@@ -264,14 +264,14 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Undead Settlement",
       "type": "light-bonfire",
       "bonfire": "Road of Sacrifices",
       "safety": true
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "hideOnIgnoredRules": [3],
       "area": "Undead Settlement",
       "type": "grab-items",
@@ -280,7 +280,7 @@
       "comments": [
         "The ring grants a boost on damage based on your equip load, so with the build of this guide it will range between 7.5% (13.5 equip load) to 10% (9 equip load)",
         "Removing _Sorcerer's Staff_ and _Grass Crest Shield_ during fights might increase the damage dealt",
-        "More about _Flynn's Ring_: http://darksouls3.wikidot.com/ring:flynn-s-ring",
+        "[More about _Flynn's Ring_](http://darksouls3.wikidot.com/)ring:flynn-s-ring",
         "This is a very long detour, and it is questionable whether the ring is worth or not"
       ],
       "optional": true
@@ -297,7 +297,7 @@
       "text": "Run towards the _Halfway Fortress_ bonfire"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Road of Sacrifices",
       "type": "light-bonfire",
       "bonfire": "Halfway Fortress",
@@ -375,7 +375,7 @@
       "comments": ["To move in the deep swamp, use the _Dagger_'s weapon art"]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Farron Keep",
       "type": "grab-items",
       "items": [{ "name": "Homeward Bone", "quantity": 3 }],
@@ -400,7 +400,7 @@
       "where": "at the base of the stairs leading to the second flame"
     },
     {
-      "hideOnIgnoredRules": [8],
+      "hideOnIgnoredRules": [7],
       "area": "Farron Keep",
       "type": "comment",
       "text": "Extinguish the second flame",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [8],
+      "showOnIgnoredRules": [7],
       "area": "Farron Keep",
       "type": "comment",
       "text": "Extinguish the second flame",
@@ -433,13 +433,13 @@
       "where": "on the left side of the clearing just before the stairs"
     },
     {
-      "hideOnIgnoredRules": [8],
+      "hideOnIgnoredRules": [7],
       "area": "Farron Keep",
       "type": "comment",
       "text": "Climb the stairs and extinguish the third and last flame"
     },
     {
-      "showOnIgnoredRules": [8],
+      "showOnIgnoredRules": [7],
       "area": "Farron Keep",
       "type": "comment",
       "text": "Climb the stairs and extinguish the third and last flame",
@@ -476,13 +476,13 @@
       "where": "continuing further down after the tower full of slugs"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Farron Keep",
       "type": "comment",
       "text": "Turn back, climb the ladder that leads to the _Old Wolf of Farron_, take the elevator, and go to area with two dead wyverns"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Farron Keep",
       "type": "kill-lizards",
       "amount": 2,
@@ -496,7 +496,7 @@
       "using": "Homeward Bone"
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "upgrade-weapon",
       "weapon": "Broadsword",
@@ -504,7 +504,7 @@
       "infusion": "Raw"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "upgrade-weapon",
       "weapon": "Broadsword",
@@ -527,7 +527,7 @@
       "bonfire": "Keep Ruins"
     },
     {
-      "hideOnIgnoredRules": [8],
+      "hideOnIgnoredRules": [7],
       "area": "Farron Keep",
       "type": "comment",
       "text": "Run straight through the gate and go to _Abyss Watchers_",
@@ -536,7 +536,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [8],
+      "showOnIgnoredRules": [7],
       "area": "Farron Keep",
       "type": "comment",
       "text": "Run straight through the gate and go to _Abyss Watchers_",
@@ -575,7 +575,7 @@
       "comments": ["If you can fence skip, why are you even reading this guide"]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "grab-items",
       "items": [{ "name": "Large Titanite Shard" }],
@@ -583,20 +583,20 @@
       "comments": ["Beware of the boulder, it can easily kill you"]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "light-bonfire",
       "bonfire": "Catacombs of Carthus",
       "safety": true
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "comment",
       "text": "Go back down"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "grab-items",
       "items": [{ "name": "Carthus Bloodring" }],
@@ -607,7 +607,7 @@
       "optional": true
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "grab-items",
       "items": [{ "name": "Large Titanite Shard" }],
@@ -619,7 +619,7 @@
       "text": "Rush to Wolnir dodging Sasuke's attacks"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "unlock-shortcut",
       "where": "by opening the gate in the ossuary",
@@ -638,19 +638,19 @@
       ]
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "warp",
       "bonfire": "Crucifixion Woods"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "comment",
       "text": "Go back to the bridge, cut it, and wait for it to fall, then climb down"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "grab-items",
       "items": [{ "name": "Large Titanite Shard" }],
@@ -660,28 +660,28 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Catacombs of Carthus",
       "type": "light-bonfire",
       "bonfire": "Abandoned Tomb",
       "safety": true
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Smoldering Lake",
       "type": "kill-lizards",
       "rewards": [{ "name": "Titanite Chunk" }],
       "where": "inside the tunnel found holding the wall on the right when entering the lake"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Smoldering Lake",
       "type": "grab-items",
       "items": [{ "name": "Large Titanite Shard", "quantity": 2 }],
       "where": "on two corpses in the cave at the end of the tunnel"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Smoldering Lake",
       "type": "grab-items",
       "items": [{ "name": "Large Titanite Shard", "quantity": 4 }],
@@ -691,7 +691,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Smoldering Lake",
       "type": "grab-items",
       "items": [{ "name": "Large Titanite Shard", "quantity": 1 }],
@@ -699,40 +699,40 @@
       "comments": ["Try going past the worm on the right side"]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Smoldering Lake",
       "type": "warp",
       "bonfire": "Firelink Shrine",
       "using": "Homeward Bone"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "comment",
       "text": "Reach the roof of Firelink by buying the key for 20,000 souls from _Shrine Handmaid_ (lame) or by performing tree skip for style points and bigger wallet"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "trade",
       "item": "Black Firebomb",
       "reward": "Titanite Chunk"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "upgrade-weapon",
       "weapon": "Broadsword",
       "level": 7
     },
     {
-      "showOnIgnoredRules": [5, 9],
+      "showOnIgnoredRules": [5, 8],
       "area": "Firelink Shrine",
       "type": "burn-undead-bone-shards",
       "quantity": 1
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "warp",
       "bonfire": "Crucifixion Woods"
@@ -747,7 +747,7 @@
       "type": "fight-boss",
       "boss": "Crystal Sage",
       "comments": [
-        "Learn spawning patterns so that you won't be wasting time killing copies anymore (https://www.youtube.com/watch?v=z-c5YFn8CDU)"
+        "[Learn spawning patterns](https://www.youtube.com/watch?v=z-c5YFn8CDU) so that you won't be wasting time killing copies anymore"
       ]
     },
     {
@@ -756,7 +756,7 @@
       "text": "Bypass a few enemies and reach the _Cathedral of the Deep_ bonfire"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Road of Sacrifices",
       "type": "light-bonfire",
       "bonfire": "Cathedral of the Deep",
@@ -772,7 +772,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Cathedral of the Deep",
       "type": "light-bonfire",
       "bonfire": "Cleansing Chapel",
@@ -786,13 +786,13 @@
       "where": "on the pillar surrounded by hollows right outside the chapel"
     },
     {
-      "hideOnIgnoredRules": [8],
+      "hideOnIgnoredRules": [7],
       "area": "Cathedral of the Deep",
       "type": "comment",
       "text": "Make your way to the inside of the cathedral, just before having to face the giant"
     },
     {
-      "showOnIgnoredRules": [8],
+      "showOnIgnoredRules": [7],
       "area": "Cathedral of the Deep",
       "type": "comment",
       "text": "Make your way to the inside of the cathedral, just before having to face the giant",
@@ -801,7 +801,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Cathedral of the Deep",
       "type": "unlock-shortcut",
       "where": "by going downstairs, opening the gate and the door that leads back to the chapel bonfire",
@@ -820,7 +820,7 @@
       "text": "Drop down, and traverse the hall abusing the _Dagger_'s sword art"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Cathedral of the Deep",
       "type": "unlock-shortcut",
       "where": "in a passage on the left side of the hall that leads back to the chapel bonfire",
@@ -873,7 +873,7 @@
       "text": "Run until you reach central Irithyll"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Irithyll of the Boreal Valley",
       "type": "comment",
       "text": "Stop where there is a line of snow perpendicular to the bridge, turn around, and wait for the croco-beast to finish charging, then kill it and equip the _Pontiff's Right Eye_ ring that it drops",
@@ -884,7 +884,7 @@
       "optional": true
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Irithyll of the Boreal Valley",
       "type": "light-bonfire",
       "bonfire": "Central Irithyll",
@@ -896,7 +896,7 @@
       "text": "Run to the Church of Yorshka"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Irithyll of the Boreal Valley",
       "type": "light-bonfire",
       "bonfire": "Church of Yorshka",
@@ -927,7 +927,7 @@
       "bonfire": "Distant Manor"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Irithyll Dungeon",
       "type": "cast-spells",
       "spells": ["Spook"],
@@ -935,7 +935,7 @@
       "safety": true
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Irithyll Dungeon",
       "type": "light-bonfire",
       "bonfire": "Irithyll Dungeon",
@@ -957,11 +957,11 @@
       "type": "comment",
       "text": "Perform dungeon skip or suffer trying to dodge an infinity of rats",
       "comments": [
-        "Dungeon skip (requires _Spook_): https://www.youtube.com/watch?v=NYhfzKBwEqk"
+        "[Dungeon skip](https://www.youtube.com/watch?v=NYhfzKBwEqk) (requires _Spook_)"
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Irithyll Dungeon",
       "type": "grab-items",
       "items": [{ "name": "Xanthous Ashes" }],
@@ -975,7 +975,7 @@
       "text": "Delve into the _Profaned Capital_ until the bonfire"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Profaned Capital",
       "type": "light-bonfire",
       "bonfire": "Profaned Capital",
@@ -1022,7 +1022,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Irithyll of the Boreal Valley",
       "type": "unlock-shortcut",
       "where": "by opening the gate that leads to the _Church of Yorshka_",
@@ -1032,7 +1032,7 @@
       "optional": true
     },
     {
-      "hideOnIgnoredRules": [7],
+      "hideOnIgnoredRules": [6],
       "area": "Irithyll of the Boreal Valley",
       "type": "fight-boss",
       "boss": "Pontiff Sulyvahn",
@@ -1043,7 +1043,7 @@
       ]
     },
     {
-      "showOnIgnoredRules": [7],
+      "showOnIgnoredRules": [6],
       "area": "Irithyll of the Boreal Valley",
       "type": "fight-boss",
       "boss": "Pontiff Sulyvahn",
@@ -1059,7 +1059,7 @@
       "text": "Rush through the big square and proceed upward"
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Irithyll of the Boreal Valley",
       "type": "grab-items",
       "items": [{ "name": "Easterner's Ashes" }],
@@ -1079,39 +1079,39 @@
       "bonfire": "Anor Londo"
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Irithyll of the Boreal Valley",
       "type": "warp",
       "bonfire": "Firelink Shrine"
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "comment",
       "text": "Give _Easterner's Ashes_ to _Shrine Handmaid_"
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "buy-items",
       "items": [{ "name": "Large Titanite Shard", "quantity": 12 }],
       "vendor": "Shrine Handmaid"
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "upgrade-weapon",
       "weapon": "Broadsword",
       "level": 6
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "showOnIgnoredRules": [5],
       "area": "Firelink Shrine",
       "type": "burn-undead-bone-shards"
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "warp",
       "bonfire": "Anor Londo"
@@ -1125,14 +1125,14 @@
       ]
     },
     {
-      "showOnIgnoredRules": [4, 9],
+      "showOnIgnoredRules": [4, 8],
       "area": "Anor Londo",
       "type": "grab-items",
       "items": [{ "name": "Estus Shard" }],
       "where": "on the bottom flow behind a ramp of stairs, in a chest"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Anor Londo",
       "type": "unlock-shortcut",
       "where": "by opening the gate with the level on its left",
@@ -1168,30 +1168,30 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Consumed King's Garden",
       "type": "comment",
       "text": "Climb the ladder, go towards the _Consumed King's Garden_, take the elevator down, jump off on the middle floor, and prepare to get your hands on some _Titanite Chunks_",
       "comments": [
-        "How to navigate the area: https://www.youtube.com/watch?v=LkQzzEYTGOg"
+        "[How to navigate the area](https://www.youtube.com/watch?v=LkQzzEYTGOg)"
       ]
     },
     {
-      "showOnIgnoredRules": [4, 9],
+      "showOnIgnoredRules": [4, 8],
       "area": "Consumed King's Garden",
       "type": "grab-items",
       "items": [{ "name": "Estus Shard" }],
       "where": "on the right side of the middle floor"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Consumed King's Garden",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk" }],
       "where": "on the broken stairs on the left side of the middle floor"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Consumed King's Garden",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk" }],
@@ -1199,26 +1199,26 @@
       "comments": ["Be wary of the Pus of Man that roam the area"]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Consumed King's Garden",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk" }],
       "where": "in the corner on the opposite side of the area"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Consumed King's Garden",
       "type": "warp",
       "using": "Homeward Bone"
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "comment",
       "text": "Navigate the castle until you reach the _Dragon Barracks_ bonfire"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "light-bonfire",
       "bonfire": "Lothric Castle",
@@ -1228,98 +1228,98 @@
       "safety": true
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk" }],
       "where": "on a corpse on a balcony as you make your way outside"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk" }],
       "where": "on a corpse on a balcony as you make your way outside"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk" }],
       "where": "after climbing the stairs and reaching the hollow infested area, go down the stairs"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk", "quantity": 2 }],
       "where": "going straight instead of taking the stairs with the axe-wielding hollow, that lead to the _Dragon Barracks_ bonfire"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "light-bonfire",
       "bonfire": "Dragon Barracks"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "comment",
       "text": "Jump down on the ledge below the bridge by walking on the armor on the left side, so you don't trigger the dragons"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk" }],
       "where": "on the ledge below the bridge"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "grab-items",
       "items": [{ "name": "Titanite Chunk", "quantity": 2 }],
       "where": "on two corpses on the floor below the bridge"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "warp",
       "bonfire": "Firelink Shrine",
       "using": "Homeward Bone"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "upgrade-weapon",
       "weapon": "Broadsword",
       "level": 9
     },
     {
-      "showOnIgnoredRules": [4, 9],
+      "showOnIgnoredRules": [4, 8],
       "area": "Firelink Shrine",
       "type": "reinforce-estus"
     },
     {
-      "showOnIgnoredRules": [5, 9],
+      "showOnIgnoredRules": [5, 8],
       "area": "Firelink Shrine",
       "type": "burn-undead-bone-shards",
       "quantity": 1
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "warp",
       "bonfire": "Dragon Barracks"
     },
     {
-      "hideOnIgnoredRules": [3, 8],
+      "hideOnIgnoredRules": [3, 7],
       "area": "Lothric Castle",
       "type": "comment",
       "text": "Jump down on the ledge below the bridge by walking on the armor on the left side, so you don't trigger the dragons, and run all the way up to _Dragonslayer Armor_"
     },
     {
-      "hideOnIgnoredRules": [8],
+      "hideOnIgnoredRules": [7],
       "showOnIgnoredRules": [3],
       "area": "Lothric Castle",
       "type": "comment",
@@ -1329,13 +1329,13 @@
       ]
     },
     {
-      "showOnIgnoredRules": [8],
+      "showOnIgnoredRules": [7],
       "area": "Lothric Castle",
       "type": "comment",
       "text": "Run on the bridge and perform one or two quit outs to make your way past the dragons, then run to _Dragonslayer Armor_"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Lothric Castle",
       "type": "unlock-shortcut",
       "where": "by activating the elevator in the opposite direction of the fog",
@@ -1369,14 +1369,14 @@
       "where": "In front of the archives door"
     },
     {
-      "hideOnIgnoredRules": [8],
+      "hideOnIgnoredRules": [7],
       "area": "Grand Archives",
       "type": "comment",
       "text": "Run through archives until the rooftop and pass the gauntlet until reaching the princes",
       "comments": ["Watch any speed run for the optimal route"]
     },
     {
-      "showOnIgnoredRules": [8],
+      "showOnIgnoredRules": [7],
       "area": "Grand Archives",
       "type": "comment",
       "text": "Run through archives until the rooftop and pass the gauntlet until reaching the princes",
@@ -1386,14 +1386,14 @@
       ]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Grand Archives",
       "type": "unlock-shortcut",
       "where": "by activating the elevator that leads back down to the _Grand Archives_ bonfire",
       "safety": true
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Grand Archives",
       "type": "unlock-shortcut",
       "where": "by activating the elevator that leads back down to the entrance of the _Dragonslayer Armor_ arena",
@@ -1415,13 +1415,13 @@
       "bonfire": "Firelink Shrine"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "comment",
       "text": "Give _Xanthous Ashes_ to the _Shrine Handmaid_"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "buy-items",
       "items": [
@@ -1431,7 +1431,7 @@
       "vendor": "Shrine Handmaid"
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "upgrade-weapon",
       "weapon": "Broadsword",
@@ -1444,14 +1444,14 @@
       "comments": ["Get all throne skips scoring mondo points"]
     },
     {
-      "showOnIgnoredRules": [9],
+      "showOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "warp",
       "bonfire": "Kiln of the First Flame",
       "comments": ["Prepare yourself for a beating"]
     },
     {
-      "hideOnIgnoredRules": [9],
+      "hideOnIgnoredRules": [8],
       "area": "Firelink Shrine",
       "type": "warp",
       "bonfire": "Kiln of the First Flame",
@@ -1479,14 +1479,13 @@
     }
   ],
   "rules": {
-    "1": "Start with class Deprived",
+    "1": "Start with class _Deprived_",
     "2": "No level up",
     "3": "No armor",
     "4": "No _Estus Flask_ upgrades with _Estus Shards_",
     "5": "No _Estus Flask_ upgrades with _Undead Bone Shards_",
-    "6": "No _Estus Flasks_ during boss fights",
-    "7": "No parries during boss fights (doing Sulyvahn the hard way)",
-    "8": "No quit-outs",
-    "9": "Be fast and fearless: no detours for upgrades and skip safety bonfires"
+    "6": "No parries during boss fights (doing Sulyvahn the hard way)",
+    "7": "No quit-outs",
+    "8": "Be fast and fearless: no detours for upgrades and skip safety bonfires"
   }
 }
