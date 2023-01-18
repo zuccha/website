@@ -33,7 +33,6 @@ const GuideScreen = () => {
   const name = pathnames[pathnames.length - 1];
 
   const [options, setOptions] = React.useState(() => {
-    console.log(location);
     const searchParams = new URLSearchParams(location.search.substring(1));
 
     const ignoredRules = searchParams.has("ignored-rules")
@@ -131,8 +130,10 @@ const GuideScreen = () => {
   }, []);
 
   const navigationBarActions = React.useMemo(
-    () => [{ label: "Filters", onClick: toggleFilters }],
-    [toggleFilters]
+    () => [
+      { label: "Filters", onClick: toggleFilters, isActive: !hideFilters },
+    ],
+    [hideFilters, toggleFilters]
   );
 
   if (status === "initial" || status === "loading") {

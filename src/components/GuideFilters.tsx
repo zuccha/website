@@ -2,6 +2,23 @@ import { React } from "../../deps.ts";
 import Checkbox from "./Checkbox.tsx";
 import Text from "./Text.tsx";
 
+const boldAndItalicRegExp = /\*\*\*([^\*]+)\*\*\*/gm;
+const bold1RegExp = /\*\*([^\*]+)\*\*/gm;
+const bold2RegExp = /__([^_]+)__/gm;
+const italic1RegExp = /\*([^\*]+)\*/gm;
+const italic2RegExp = /_([^_]+)_/gm;
+const strikethroughRegExp = /~~([^~]+)~~/g;
+
+const stripMarkdown = (text: string): string => {
+  return text
+    .replace(boldAndItalicRegExp, (_, match) => match)
+    .replace(bold1RegExp, (_, match) => match)
+    .replace(bold2RegExp, (_, match) => match)
+    .replace(italic1RegExp, (_, match) => match)
+    .replace(italic2RegExp, (_, match) => match)
+    .replace(strikethroughRegExp, (_, match) => match);
+};
+
 type GuideFiltersProps = {
   hideComments: boolean;
   hideOptional: boolean;
@@ -51,7 +68,11 @@ const GuideFilters = ({
           />
         </div>
         {Object.entries(rules).map(([id, description]) => (
-          <div key={id} className="guide-filters-filter" title={description}>
+          <div
+            key={id}
+            className="guide-filters-filter"
+            title={stripMarkdown(description)}
+          >
             <Checkbox
               isChecked={ignoredRules.includes(Number(id))}
               label={`Ignore rule ${id} ⓘ`}
