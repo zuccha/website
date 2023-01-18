@@ -2,7 +2,7 @@ import { Guider, React, ReactRouterDOM } from "../../deps.ts";
 import CourtesyMessage from "../components/CourtesyMessage.tsx";
 import GuideFilters from "../components/GuideFilters.tsx";
 import GuideViewer from "../components/GuideViewer.tsx";
-import Text from "../components/Text.tsx";
+import NavigationBar from "../components/NavigationBar.tsx";
 import useResource from "../hooks/useResource.ts";
 
 type SearchParams = {
@@ -33,6 +33,7 @@ const GuideScreen = () => {
   const name = pathnames[pathnames.length - 1];
 
   const [options, setOptions] = React.useState(() => {
+    console.log(location);
     const searchParams = new URLSearchParams(location.search.substring(1));
 
     const ignoredRules = searchParams.has("ignored-rules")
@@ -123,6 +124,17 @@ const GuideScreen = () => {
     [location.pathname]
   );
 
+  const [hideFilters, setHideFilters] = React.useState(true);
+
+  const toggleFilters = React.useCallback(() => {
+    setHideFilters((prevHideFilters) => !prevHideFilters);
+  }, []);
+
+  const navigationBarActions = React.useMemo(
+    () => [{ label: "Filters", onClick: toggleFilters }],
+    [toggleFilters]
+  );
+
   if (status === "initial" || status === "loading") {
     return null;
   }
@@ -133,21 +145,30 @@ const GuideScreen = () => {
 
   return (
     <div className="guide-route">
-      <div className="guide-route-filters">
-        <GuideFilters
-          hideComments={options.hideComments}
-          hideOptional={options.hideOptional}
-          hideSafety={options.hideSafety}
-          ignoredRules={options.ignoredRules}
-          rules={rules}
-          onToggleHideComments={handleToggleHideComments}
-          onToggleHideOptional={handleToggleHideOptional}
-          onToggleHideSafety={handleToggleHideSafety}
-          onToggleIgnoredRule={handleToggleIgnoredRule}
-        />
-      </div>
-      <div className="guide-route-guide">
-        <GuideViewer markdown={guide.format(options)} />
+      <div className="guide-route-content">
+        <div className="guide-route-navigation">
+          <NavigationBar showBack actions={navigationBarActions} />
+          <div
+            className={
+              hideFilters ? "guide-route-filters hidden" : "guide-route-filters"
+            }
+          >
+            <GuideFilters
+              hideComments={options.hideComments}
+              hideOptional={options.hideOptional}
+              hideSafety={options.hideSafety}
+              ignoredRules={options.ignoredRules}
+              rules={rules}
+              onToggleHideComments={handleToggleHideComments}
+              onToggleHideOptional={handleToggleHideOptional}
+              onToggleHideSafety={handleToggleHideSafety}
+              onToggleIgnoredRule={handleToggleIgnoredRule}
+            />
+          </div>
+        </div>
+        <div className="guide-route-guide">
+          <GuideViewer markdown={guide.format(options)} />
+        </div>
       </div>
     </div>
   );

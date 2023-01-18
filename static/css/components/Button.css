@@ -9,6 +9,11 @@
   transition: border-color 0.25s linear;
 }
 
+.button-no-border {
+  border: 1px solid transparent;
+  width: auto;
+}
+
 .button-center {
   justify-content: center;
 }

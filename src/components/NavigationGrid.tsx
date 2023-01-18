@@ -1,5 +1,5 @@
 import { FontAwesomeSvgCore, React } from "../../deps.ts";
-import Button from "./Button.tsx";
+import NavigationButton from "./NavigationButton.tsx";
 
 type NavigationGridProps = {
   lastRowAlignment?: "left" | "right";
@@ -24,7 +24,7 @@ const NavigationGrid = ({
     <div className="navigation-grid">
       <div className={navigationGridClassName}>
         {routes.map((route) => (
-          <Button
+          <NavigationButton
             key={route.label}
             href={route.url}
             icon={route.icon}

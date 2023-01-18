@@ -1,32 +1,34 @@
-import {
-  FontAwesomeSvgCore,
-  React,
-  ReactFontAwesome,
-  ReactRouterDOM,
-} from "../../deps.ts";
+import { FontAwesomeSvgCore, React, ReactFontAwesome } from "../../deps.ts";
 import Text from "./Text.tsx";
 
-interface ButtonProps {
-  href: string;
+interface NavigationButtonProps {
+  hideBorder?: boolean;
   icon?: FontAwesomeSvgCore.IconDefinition;
-  isExternalLink?: boolean;
   label: string;
+  onClick: () => void;
 }
 
-const Button = ({ href, icon, isExternalLink, label }: ButtonProps) => {
-  const target = isExternalLink ? "_blank" : undefined;
-  const align = icon ? "button-left" : "button-center";
+const Button = ({
+  hideBorder,
+  icon,
+  label,
+  onClick,
+}: NavigationButtonProps) => {
+  const className = React.useMemo(() => {
+    const classNames = ["button"];
+    if (icon) classNames.push("button-left");
+    else classNames.push("button-center");
+    if (hideBorder) classNames.push("button-no-border");
+    return classNames.join(" ");
+  }, [icon, hideBorder]);
+
   return (
-    <ReactRouterDOM.Link
-      className={`button ${align}`}
-      to={href}
-      target={target}
-    >
+    <div className={className} onClick={onClick}>
       {icon && (
         <ReactFontAwesome.FontAwesomeIcon icon={icon} className="button-icon" />
       )}
       <Text text={label} variant="t1" />
-    </ReactRouterDOM.Link>
+    </div>
   );
 };
 
