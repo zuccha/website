@@ -27,6 +27,8 @@ const formatUrl = (location: string, options: SearchParams): string => {
 };
 
 const GuideScreen = () => {
+  document.title = "Dark Souls III Guide";
+
   const location = ReactRouterDOM.useLocation();
 
   const pathnames = location.pathname.split("/");

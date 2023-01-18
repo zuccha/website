@@ -5,6 +5,8 @@ import NavigationGrid from "../components/NavigationGrid.tsx";
 import Separator from "../components/Separator.tsx";
 
 const MoreScreen = () => {
+  document.title = "Amedeo Zucchetti";
+
   const routes = React.useMemo(
     () => [
       {
