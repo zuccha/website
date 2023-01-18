@@ -1,4 +1,5 @@
 import { Guider, React, ReactRouterDOM } from "../../deps.ts";
+import CourtesyMessage from "../components/CourtesyMessage.tsx";
 import GuideFilters from "../components/GuideFilters.tsx";
 import GuideViewer from "../components/GuideViewer.tsx";
 import Text from "../components/Text.tsx";
@@ -125,7 +126,7 @@ const GuideScreen = () => {
   }
 
   if (status === "failure") {
-    return <Text text="Guide is not valid :(" variant="h3" />;
+    return <CourtesyMessage title="The guide is not valid :(" />;
   }
 
   return (

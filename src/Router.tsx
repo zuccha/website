@@ -5,7 +5,7 @@ import MoreRoute from "./routes/MoreRoute.tsx";
 
 const App = () => {
   return (
-    <ReactRouterDOM.BrowserRouter>
+    <ReactRouterDOM.HashRouter>
       <div className="router">
         <ReactRouterDOM.Routes>
           <ReactRouterDOM.Route path="/guides/:id" element={<GuideRoute />} />
@@ -13,7 +13,7 @@ const App = () => {
           <ReactRouterDOM.Route path="/" element={<HomeRoute />} />
         </ReactRouterDOM.Routes>
       </div>
-    </ReactRouterDOM.BrowserRouter>
+    </ReactRouterDOM.HashRouter>
   );
 };
 
