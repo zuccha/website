@@ -6,10 +6,15 @@ interface NavigationBarProps {
     label: string;
     onClick: () => void;
   }[];
+  contentBelow?: React.ReactNode;
   showBack?: boolean;
 }
 
-const NavigationBar = ({ actions = [], showBack }: NavigationBarProps) => {
+const NavigationBar = ({
+  actions = [],
+  contentBelow,
+  showBack,
+}: NavigationBarProps) => {
   const navigate = ReactRouterDOM.useNavigate();
   const handleGoBack = React.useCallback(() => {
     navigate(-1);
@@ -17,21 +22,24 @@ const NavigationBar = ({ actions = [], showBack }: NavigationBarProps) => {
 
   return (
     <div className="navigation-bar">
-      {showBack ? (
-        <Button
-          onClick={handleGoBack}
-          label="Back"
-          icon={FreeRegularSvgIcons.faArrowAltCircleLeft}
-          hideBorder
-        />
-      ) : (
-        <div />
-      )}
-      <div className="navigation-bar-actions">
-        {actions.map((action) => (
-          <Button onClick={action.onClick} label={action.label} hideBorder />
-        ))}
+      <div className="navigation-bar-header">
+        {showBack ? (
+          <Button
+            onClick={handleGoBack}
+            label="Back"
+            icon={FreeRegularSvgIcons.faArrowAltCircleLeft}
+            hideBorder
+          />
+        ) : (
+          <div />
+        )}
+        <div>
+          {actions.map((action) => (
+            <Button onClick={action.onClick} label={action.label} hideBorder />
+          ))}
+        </div>
       </div>
+      {contentBelow}
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import { React } from "../../deps.ts";
 import Header from "../components/Header.tsx";
+import NavigationBar from "../components/NavigationBar.tsx";
 import NavigationGrid from "../components/NavigationGrid.tsx";
 import Separator from "../components/Separator.tsx";
 
@@ -15,10 +16,13 @@ const MoreScreen = () => {
   );
 
   return (
-    <div className="route-compact">
-      <Header title="Guides" />
-      <Separator />
-      <NavigationGrid routes={routes} />
+    <div className="more-route">
+      <NavigationBar showBack />
+      <div className={"more-route-content"}>
+        <Header title="Guides" />
+        <Separator />
+        <NavigationGrid routes={routes} />
+      </div>
     </div>
   );
 };

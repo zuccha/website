@@ -10,9 +10,12 @@
 @import url("./components/Separator.css");
 @import url("./components/Text.css");
 @import url("./routes/GuideRoute.css");
+@import url("./routes/HomeRoute.css");
+@import url("./routes/MoreRoute.css");
 
 * {
   --max-page-width: 800px;
+  --max-column-width: 512px;
 
   --spacing-1: 8px;
   --spacing-2: 12px;

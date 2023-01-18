@@ -145,26 +145,30 @@ const GuideScreen = () => {
 
   return (
     <div className="guide-route">
-      <div className="guide-route-navigation">
-        <NavigationBar showBack actions={navigationBarActions} />
-        <div
-          className={
-            hideFilters ? "guide-route-filters hidden" : "guide-route-filters"
-          }
-        >
-          <GuideFilters
-            hideComments={options.hideComments}
-            hideOptional={options.hideOptional}
-            hideSafety={options.hideSafety}
-            ignoredRules={options.ignoredRules}
-            rules={rules}
-            onToggleHideComments={handleToggleHideComments}
-            onToggleHideOptional={handleToggleHideOptional}
-            onToggleHideSafety={handleToggleHideSafety}
-            onToggleIgnoredRule={handleToggleIgnoredRule}
-          />
-        </div>
-      </div>
+      <NavigationBar
+        showBack
+        actions={navigationBarActions}
+        contentBelow={
+          <div
+            className={
+              hideFilters ? "guide-route-filters hidden" : "guide-route-filters"
+            }
+          >
+            <GuideFilters
+              hideComments={options.hideComments}
+              hideOptional={options.hideOptional}
+              hideSafety={options.hideSafety}
+              ignoredRules={options.ignoredRules}
+              rules={rules}
+              onToggleHideComments={handleToggleHideComments}
+              onToggleHideOptional={handleToggleHideOptional}
+              onToggleHideSafety={handleToggleHideSafety}
+              onToggleIgnoredRule={handleToggleIgnoredRule}
+            />
+          </div>
+        }
+      />
+
       <div className="guide-route-content">
         <div className="guide-route-guide">
           <GuideViewer markdown={guide.format(options)} />
