@@ -1,57 +1,91 @@
 import { FreeBrandsSvgIcons, FreeSolidSvgIcons, React } from "../../deps.ts";
+import Button from "../components/Button.tsx";
 import Header from "../components/Header.tsx";
-import NavigationGrid from "../components/NavigationGrid.tsx";
-import Separator from "../components/Separator.tsx";
+import IconButton from "../components/IconButton.tsx";
 
 const HomeScreen = () => {
-  document.title = "Amedeo Zucchetti";
+  document.title = "zuccha";
 
-  const routes = React.useMemo(
+  const socials = React.useMemo(
     () => [
       {
-        url: "https://github.com/zuccha/",
         icon: FreeBrandsSvgIcons.faGithub,
-        isExternalLink: true,
-        label: "GitHub",
+        isExternal: true,
+        url: "https://github.com/zuccha/",
       },
       {
-        url: "https://www.linkedin.com/in/amedeo-zucchetti/",
         icon: FreeBrandsSvgIcons.faLinkedin,
-        isExternalLink: true,
-        label: "LinkedIn",
+        isExternal: true,
+        url: "https://www.linkedin.com/in/amedeo-zucchetti/",
       },
-      // {
-      //   url: window.location.origin,
-      //   icon: FreeSolidSvgIcons.faLink,
-      //   isExternalLink: true,
-      //   label: "Website",
-      // },
       {
-        url: "mailto:amedeo.zucchetti@gmail.com",
+        icon: FreeSolidSvgIcons.faLink,
+        isExternal: true,
+        url: window.location.origin,
+      },
+      {
         icon: FreeSolidSvgIcons.faEnvelope,
-        isExternalLink: true,
-        label: "e-mail",
+        isExternal: true,
+        url: "mailto:amedeo.zucchetti@gmail.com",
       },
       // {
       //   url: "https://twitter.com/amedeozucchetti",
       //   icon: FreeBrandsSvgIcons.faTwitter,
-      //   isExternalLink: true,
+      //   isExternal: true,
       //   label: "Twitter",
-      // },
-      {
-        url: "/more",
-        label: "More...",
-      },
+      // }
     ],
     [window.location.origin]
+  );
+
+  const projects = React.useMemo(
+    () => [
+      {
+        isExternal: false,
+        label: "Dark Souls III Guide",
+        url: "/#/guides/dark-souls-3-any-glitchless-sl1",
+      },
+      {
+        isExternal: true,
+        label: "ROM Hack Downloader",
+        url: "https://github.com/zuccha/rom-hack-downloader",
+      },
+      {
+        isExternal: false,
+        label: "Solaire's Adventures",
+        url: "/#/games/solaires-adventures",
+      },
+    ],
+    []
   );
 
   return (
     <div className="home-route">
       <div className="home-route-content">
-        <Header title="Amedeo Zucchetti" />
-        <Separator />
-        <NavigationGrid routes={routes} lastRowAlignment="right" />
+        <div className="home-route-body">
+          <Header title="Amedeo Zucchetti" />
+
+          <div className="home-route-socials">
+            {socials.map((social) => (
+              <IconButton
+                href={social.url}
+                icon={social.icon}
+                isExternal={social.isExternal}
+              />
+            ))}
+          </div>
+
+          <div className="home-route-projects">
+            {projects.map((project) => (
+              <Button
+                full
+                href={project.url}
+                isExternal={project.isExternal}
+                label={project.label}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

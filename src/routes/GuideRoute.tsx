@@ -139,9 +139,7 @@ const GuideScreen = () => {
   );
 
   const navigate = ReactRouterDOM.useNavigate();
-  const handleGoBack = React.useCallback(() => {
-    navigate("/more");
-  }, []);
+  const handleGoBack = React.useCallback(() => navigate("/more"), [navigate]);
 
   if (status === "initial" || status === "loading") {
     return null;
@@ -159,7 +157,7 @@ const GuideScreen = () => {
   return (
     <div className="guide-route">
       <NavigationBar
-        backUrl="/more"
+        backUrl="/"
         actions={navigationBarActions}
         contentBelow={
           <div

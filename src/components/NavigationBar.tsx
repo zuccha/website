@@ -1,5 +1,7 @@
 import { FreeRegularSvgIcons, React, ReactRouterDOM } from "../../deps.ts";
+import ActionButton from "./ActionButton.tsx";
 import Button from "./Button.tsx";
+import IconButton from "./IconButton.tsx";
 
 interface NavigationBarProps {
   actions?: {
@@ -26,17 +28,17 @@ const NavigationBar = ({
       <div className="navigation-bar-header">
         {backUrl ? (
           <Button
-            onClick={handleGoBack}
-            label="Back"
-            icon={FreeRegularSvgIcons.faArrowAltCircleLeft}
             hideBorder
+            href={backUrl}
+            icon={FreeRegularSvgIcons.faArrowAltCircleLeft}
+            label="Back"
           />
         ) : (
           <div />
         )}
         <div>
           {actions.map((action) => (
-            <Button
+            <ActionButton
               onClick={action.onClick}
               label={action.label}
               hideBorder

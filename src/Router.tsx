@@ -1,7 +1,7 @@
 import { React, ReactRouterDOM } from "../deps.ts";
 import HomeRoute from "./routes/HomeRoute.tsx";
 import GuideRoute from "./routes/GuideRoute.tsx";
-import MoreRoute from "./routes/MoreRoute.tsx";
+import SolairesAdventuresRoute from "./routes/GameRoute.tsx";
 
 const App = () => {
   return (
@@ -9,7 +9,10 @@ const App = () => {
       <div className="router">
         <ReactRouterDOM.Routes>
           <ReactRouterDOM.Route path="/guides/:id" element={<GuideRoute />} />
-          <ReactRouterDOM.Route path="/more" element={<MoreRoute />} />
+          <ReactRouterDOM.Route
+            path="/games/solaires-adventures"
+            element={<SolairesAdventuresRoute />}
+          />
           <ReactRouterDOM.Route path="/" element={<HomeRoute />} />
         </ReactRouterDOM.Routes>
       </div>

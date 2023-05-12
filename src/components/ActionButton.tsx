@@ -1,25 +1,23 @@
 import { FontAwesomeSvgCore, React, ReactFontAwesome } from "../../deps.ts";
 import Text from "./Text.tsx";
 
-interface ButtonProps {
+interface ActionButtonProps {
   full?: boolean;
   hideBorder?: boolean;
-  href: string;
   icon?: FontAwesomeSvgCore.IconDefinition;
   isActive?: boolean;
-  isExternal?: boolean;
   label: string;
+  onClick: () => void;
 }
 
-const Button = ({
+const ActionButton = ({
   full,
   hideBorder,
-  href,
   icon,
   isActive,
-  isExternal,
   label,
-}: ButtonProps) => {
+  onClick,
+}: ActionButtonProps) => {
   const className = React.useMemo(() => {
     const classNames = ["button"];
     if (full) classNames.push("button-full");
@@ -28,16 +26,14 @@ const Button = ({
     return classNames.join(" ");
   }, [hideBorder, icon, isActive]);
 
-  const target = isExternal ? "_blank" : undefined;
-
   return (
-    <a className={className} href={href} target={target}>
+    <div className={className} onClick={onClick}>
       {icon && (
         <ReactFontAwesome.FontAwesomeIcon icon={icon} className="button-icon" />
       )}
       <Text text={label} variant="t1" />
-    </a>
+    </div>
   );
 };
 
-export default Button;
+export default ActionButton;

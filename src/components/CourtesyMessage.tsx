@@ -1,5 +1,5 @@
 import { React, FreeRegularSvgIcons } from "../../deps.ts";
-import Button from "./Button.tsx";
+import ActionButton from "./ActionButton.tsx";
 import Text from "./Text.tsx";
 
 interface CourtesyMessageProps {
@@ -16,11 +16,11 @@ const CourtesyMessage = ({ title, action }: CourtesyMessageProps) => {
       <Text text={title} variant="h3" />
       {action && (
         <div className="courtesy-message-action">
-          <Button
+          <ActionButton
+            hideBorder
             icon={FreeRegularSvgIcons.faArrowAltCircleLeft}
             label={action.label}
             onClick={action.onClick}
-            hideBorder
           />
         </div>
       )}
