@@ -1,4 +1,9 @@
-import { FontAwesomeSvgCore, React, ReactFontAwesome } from "../../deps.ts";
+import {
+  FontAwesomeSvgCore,
+  FreeSolidSvgIcons,
+  React,
+  ReactFontAwesome,
+} from "../../deps.ts";
 import Text from "./Text.tsx";
 
 interface ButtonProps {
@@ -36,6 +41,13 @@ const Button = ({
         <ReactFontAwesome.FontAwesomeIcon icon={icon} className="button-icon" />
       )}
       <Text text={label} variant="t1" />
+      {isExternal && (
+        <div className="button-external-icon">
+          <ReactFontAwesome.FontAwesomeIcon
+            icon={FreeSolidSvgIcons.faSquareArrowUpRight}
+          />
+        </div>
+      )}
     </a>
   );
 };

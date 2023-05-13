@@ -8,6 +8,7 @@
   width: 110px;
   transition: background-color 0.25s linear;
   transition: border-color 0.25s linear;
+  position: relative;
 }
 
 .button-no-border {
@@ -63,4 +64,18 @@ a.button:active {
   font-size: 1em;
   font-family: var(--font-text);
   color: var(--color-neutral-8);
+}
+
+.button-external-icon {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  color: var(--color-neutral-4);
+  transition: color 0.25s linear;
+}
+
+.button:hover .button-external-icon,
+.button:active .button-external-icon {
+  color: var(--color-neutral-8);
+  transition: color 0.25s linear;
 }

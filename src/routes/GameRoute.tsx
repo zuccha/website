@@ -57,8 +57,8 @@ const GameRoute = () => {
 
           <div className="game-route-downloads">
             <Text text="Downloads:" variant="h5" />
-            <Button href={game.downloads.windows} label="Windows" />
-            <Button href={game.downloads.macOS} label="macOS" />
+            <Button href={game.downloads.windows} label="Windows" isExternal />
+            <Button href={game.downloads.macOS} label="macOS" isExternal />
           </div>
 
           <div className="game-route-description">

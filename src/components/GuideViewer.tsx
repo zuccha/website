@@ -8,7 +8,7 @@ const RehypePlugins = [RehypeRaw];
 const RemarkPlugins = [RemarkGfm];
 
 const components = {
-  a: ({ node, ...props }) => <a {...props} className="md-a" />,
+  a: ({ node, ...props }) => <a {...props} className="md-a" target="_blank" />,
   h1: ({ node, ...props }) => <h1 {...props} className="text-h1" />,
   h2: ({ node, ...props }) => <h2 {...props} className="text-h2" />,
   h3: ({ node, ...props }) => <h3 {...props} className="text-h3" />,
