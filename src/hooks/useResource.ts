@@ -19,6 +19,7 @@ const useResource = <T>(
       try {
         setResource([undefined, "loading"]);
         const response = await fetch(url);
+        if (response.status !== 200) throw new Error("Failed to retrieve data");
         const data = await response.text();
         const parsedData = parse(data);
         setResource([parsedData, "success"]);

@@ -18,15 +18,13 @@ const RehypePlugins = [RehypeRaw];
 const RemarkPlugins = [RemarkGfm];
 
 const GameScreen = () => {
+  document.title = "Game";
+
   const location = ReactRouterDOM.useLocation();
   const pathnames = location.pathname.split("/");
   const name = pathnames[pathnames.length - 1];
 
   const [game, status] = useResource(`/static/games/${name}.json`, parseGame);
-  console.log(name, typeof game);
-
-  const navigate = ReactRouterDOM.useNavigate();
-  const handleGoBack = React.useCallback(() => navigate("/"), [navigate]);
 
   if (status === "initial" || status === "loading") {
     return null;
@@ -36,7 +34,7 @@ const GameScreen = () => {
     return (
       <CourtesyMessage
         title="The game is not valid :("
-        action={{ label: "BACK", onClick: handleGoBack }}
+        button={{ label: "HOME", href: "/" }}
       />
     );
   }

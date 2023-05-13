@@ -46,14 +46,14 @@ const HomeScreen = () => {
         url: "/#/guides/dark-souls-3-any-glitchless-sl1",
       },
       {
-        isExternal: true,
-        label: "ROM Hack Downloader",
-        url: "https://github.com/zuccha/rom-hack-downloader",
-      },
-      {
         isExternal: false,
         label: "Solaire's Adventures",
         url: "/#/games/solaires-adventures",
+      },
+      {
+        isExternal: true,
+        label: "ROM Hack Downloader",
+        url: "https://github.com/zuccha/rom-hack-downloader",
       },
     ],
     []

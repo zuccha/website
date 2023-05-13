@@ -1,26 +1,26 @@
 import { React, FreeRegularSvgIcons } from "../../deps.ts";
-import ActionButton from "./ActionButton.tsx";
+import Button from "./Button.tsx";
 import Text from "./Text.tsx";
 
 interface CourtesyMessageProps {
-  title: string;
-  action?: {
+  button?: {
+    href: string;
     label: string;
-    onClick: () => void;
   };
+  title: string;
 }
 
-const CourtesyMessage = ({ title, action }: CourtesyMessageProps) => {
+const CourtesyMessage = ({ button, title }: CourtesyMessageProps) => {
   return (
     <div className="courtesy-message">
       <Text text={title} variant="h3" />
-      {action && (
+      {button && (
         <div className="courtesy-message-action">
-          <ActionButton
+          <Button
             hideBorder
+            href={button.href}
             icon={FreeRegularSvgIcons.faArrowAltCircleLeft}
-            label={action.label}
-            onClick={action.onClick}
+            label={button.label}
           />
         </div>
       )}

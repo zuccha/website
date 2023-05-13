@@ -138,9 +138,6 @@ const GuideScreen = () => {
     [hideFilters, toggleFilters]
   );
 
-  const navigate = ReactRouterDOM.useNavigate();
-  const handleGoBack = React.useCallback(() => navigate("/more"), [navigate]);
-
   if (status === "initial" || status === "loading") {
     return null;
   }
@@ -149,7 +146,7 @@ const GuideScreen = () => {
     return (
       <CourtesyMessage
         title="The guide is not valid :("
-        action={{ label: "BACK", onClick: handleGoBack }}
+        button={{ label: "HOME", href: "/" }}
       />
     );
   }
