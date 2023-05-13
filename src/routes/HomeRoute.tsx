@@ -3,7 +3,7 @@ import Button from "../components/Button.tsx";
 import Header from "../components/Header.tsx";
 import IconButton from "../components/IconButton.tsx";
 
-const HomeScreen = () => {
+const HomeRoute = () => {
   document.title = "zuccha";
 
   const socials = React.useMemo(
@@ -91,4 +91,4 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default HomeRoute;

@@ -26,7 +26,7 @@ const formatUrl = (location: string, options: SearchParams): string => {
     : `/#${location}?${params.join("&")}`;
 };
 
-const GuideScreen = () => {
+const GuideRoute = () => {
   document.title = "Dark Souls III Guide";
 
   const location = ReactRouterDOM.useLocation();
@@ -186,4 +186,4 @@ const GuideScreen = () => {
   );
 };
 
-export default GuideScreen;
+export default GuideRoute;

@@ -17,7 +17,7 @@ const components = {};
 const RehypePlugins = [RehypeRaw];
 const RemarkPlugins = [RemarkGfm];
 
-const GameScreen = () => {
+const GameRoute = () => {
   document.title = "Game";
 
   const location = ReactRouterDOM.useLocation();
@@ -78,4 +78,4 @@ const GameScreen = () => {
   );
 };
 
-export default GameScreen;
+export default GameRoute;
