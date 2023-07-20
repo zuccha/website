@@ -52,8 +52,8 @@ const HomeRoute = () => {
       },
       {
         isExternal: true,
-        label: "ROM Hack Downloader",
-        url: "https://github.com/zuccha/rom-hack-downloader",
+        label: "ROM Hack Manager",
+        url: "https://github.com/zuccha/rom-hack-manager",
       },
     ],
     []
