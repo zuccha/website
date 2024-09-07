@@ -4,8 +4,6 @@ import Header from "../components/Header.tsx";
 import Text from "../components/Text.tsx";
 import IconButton from "../components/IconButton.tsx";
 
-type Category = "dark-souls" | "super-mario-world";
-
 const HomeRoute = () => {
   document.title = "zuccha";
 
@@ -55,7 +53,7 @@ const HomeRoute = () => {
       {
         isExternal: false,
         label: "SMW Toolbox",
-        url: "/smw_toolbox",
+        url: "/smw-toolbox",
       },
       {
         isExternal: true,
