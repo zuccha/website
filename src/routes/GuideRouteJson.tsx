@@ -26,9 +26,7 @@ const formatUrl = (location: string, options: SearchParams): string => {
     : `/#${location}?${params.join("&")}`;
 };
 
-const GuideRoute = () => {
-  document.title = "Dark Souls III Guide";
-
+const GuideRouteJson = () => {
   const location = ReactRouterDOM.useLocation();
 
   const pathnames = location.pathname.split("/");
@@ -139,10 +137,12 @@ const GuideRoute = () => {
   );
 
   if (status === "initial" || status === "loading") {
+    document.title = "Loading...";
     return null;
   }
 
   if (status === "failure") {
+    document.title = "Guide error";
     return (
       <CourtesyMessage
         title="The guide is not valid :("
@@ -150,6 +150,8 @@ const GuideRoute = () => {
       />
     );
   }
+
+  document.title = guide.getName();
 
   return (
     <div className="guide-route">
@@ -186,4 +188,4 @@ const GuideRoute = () => {
   );
 };
 
-export default GuideRoute;
+export default GuideRouteJson;

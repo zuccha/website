@@ -1,6 +1,7 @@
 import { FreeBrandsSvgIcons, FreeSolidSvgIcons, React } from "../../deps.ts";
 import Button from "../components/Button.tsx";
 import Header from "../components/Header.tsx";
+import Text from "../components/Text.tsx";
 import IconButton from "../components/IconButton.tsx";
 
 type Category = "dark-souls" | "super-mario-world";
@@ -34,61 +35,50 @@ const HomeRoute = () => {
     [window.location.origin]
   );
 
-  const categories = React.useMemo(
-    () => ({
-      ["dark-souls"]: {
-        name: "Dark Souls",
-        projects: [
-          {
-            isExternal: false,
-            label: "Dark Souls III Guide",
-            url: "/#/guides/dark-souls-3-any-glitchless-sl1",
-          },
-          {
-            isExternal: false,
-            label: "Solaire's Adventures",
-            url: "/#/games/solaires-adventures",
-          },
-        ],
+  const projects = React.useMemo(
+    () => [
+      {
+        isExternal: false,
+        label: "Solaire's Adventures",
+        url: "/#/games/solaires-adventures",
       },
-      ["super-mario-world"]: {
-        name: "Super Mario World",
-        projects: [
-          {
-            isExternal: false,
-            label: "Byte Converter",
-            url: "/pages/byte_converter.html",
-          },
-          {
-            isExternal: false,
-            label: "Byte Table Editor",
-            url: "/pages/byte_table_editor.html",
-          },
-          {
-            isExternal: true,
-            label: "ROM Hack Manager",
-            url: "https://github.com/zuccha/rom-hack-manager",
-          },
-          {
-            isExternal: true,
-            label: "SMW Resources",
-            url: "https://github.com/zuccha/smw-code",
-          },
-        ],
+      // {
+      //   isExternal: false,
+      //   label: "Dark Souls III Guide",
+      //   url: "/#/guides/json/dark-souls-3-any-glitchless-sl1",
+      // },
+      // {
+      //   isExternal: false,
+      //   label: "SM64 Blindfolded Guide",
+      //   url: "/#/guides/md/super-mario-64-blindfolded-16-stars",
+      // },
+      {
+        isExternal: false,
+        label: "SMW Toolbox",
+        url: "/smw_toolbox",
       },
-    }),
+      {
+        isExternal: true,
+        label: "SMW Resources",
+        url: "https://github.com/zuccha/smw-code",
+      },
+      {
+        isExternal: true,
+        label: "ROM Hack Manager",
+        url: "https://github.com/zuccha/rom-hack-manager",
+      },
+    ],
     []
   );
-
-  const [selectedCategory, setSelectedCategory] = React.useState<
-    Category | undefined
-  >();
 
   return (
     <div className="home-route">
       <div className="home-route-content">
         <div className="home-route-body">
-          <Header title="Amedeo Zucchetti" />
+          <div className="home-route-title">
+            <Header title="Amedeo Zucchetti" />
+            <Text text="a.k.a. zuccha" variant="h3" />
+          </div>
 
           <div className="home-route-socials">
             {socials.map((social) => (
@@ -101,34 +91,14 @@ const HomeRoute = () => {
           </div>
 
           <div className="home-route-projects">
-            {selectedCategory ? (
-              <>
-                <Button
-                  full
-                  onClick={() => setSelectedCategory(undefined)}
-                  isExternal={false}
-                  label=".."
-                />
-                {categories[selectedCategory].projects.map((project) => (
-                  <Button
-                    full
-                    href={project.url}
-                    isExternal={project.isExternal}
-                    label={project.label}
-                  />
-                ))}
-              </>
-            ) : (
-              Object.entries(categories).map(([id, category]) => (
-                <Button
-                  full
-                  label={category.name}
-                  onClick={() => {
-                    setSelectedCategory(id as Category);
-                  }}
-                />
-              ))
-            )}
+            {projects.map((project) => (
+              <Button
+                full
+                href={project.url}
+                isExternal={project.isExternal}
+                label={project.label}
+              />
+            ))}
           </div>
         </div>
       </div>
