@@ -14,11 +14,11 @@ const HomeRoute = () => {
         isExternal: true,
         url: "https://github.com/zuccha/",
       },
-      {
-        icon: FreeBrandsSvgIcons.faLinkedin,
-        isExternal: true,
-        url: "https://www.linkedin.com/in/amedeo-zucchetti/",
-      },
+      // {
+      //   icon: FreeBrandsSvgIcons.faLinkedin,
+      //   isExternal: true,
+      //   url: "https://www.linkedin.com/in/amedeo-zucchetti/",
+      // },
       {
         icon: FreeSolidSvgIcons.faLink,
         isExternal: true,
@@ -40,16 +40,21 @@ const HomeRoute = () => {
         label: "Solaire's Adventures",
         url: "/#/games/solaires-adventures",
       },
-      // {
-      //   isExternal: false,
-      //   label: "Dark Souls III Guide",
-      //   url: "/#/guides/json/dark-souls-3-any-glitchless-sl1",
-      // },
+      {
+        isExternal: false,
+        label: "Dark Souls III Guide",
+        url: "/#/guides/json/dark-souls-3-any-glitchless-sl1",
+      },
       // {
       //   isExternal: false,
       //   label: "SM64 Blindfolded Guide",
       //   url: "/#/guides/md/super-mario-64-blindfolded-16-stars",
       // },
+      {
+        isExternal: false,
+        label: "Magic Pop Quiz",
+        url: "/magic-pop-quiz",
+      },
       {
         isExternal: false,
         label: "SMW Toolbox",
